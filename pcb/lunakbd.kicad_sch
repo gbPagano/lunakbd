@@ -5452,7 +5452,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.25u_90deg"
 			(at 266.7 134.62 0)
 			(effects
 				(font
