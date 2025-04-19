@@ -37,7 +37,7 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
-		(grid_origin 104.775 119.0625)
+		(grid_origin 133.35 45.24375)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -121,13 +121,13 @@
 	(footprint "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "0c81de4b-4b3a-4095-90e1-3a5a6073d257")
-		(at 133.35 100.0125)
+		(at 171.45 107.15625)
 		(descr "Cherry MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
-		(property "Reference" "SW22"
+		(property "Reference" "SW24"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "f7ef25f1-0dcb-406f-825f-4baf83bf405d")
+			(uuid "6cba0a51-8e4d-42b4-8875-140bb7d1bd25")
 			(effects
 				(font
 					(size 1 1)
@@ -138,7 +138,7 @@
 		(property "Value" "Switch"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "ae37b66e-7f52-48ce-b70a-e45322c7d339")
+			(uuid "0d725f0d-d1ad-4e30-9876-4260fe1fa03a")
 			(effects
 				(font
 					(size 1 1)
@@ -150,7 +150,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "40e0c94e-b4c1-4f82-8abc-1a0c5ff550b6")
+			(uuid "4ad29520-6b7b-48c5-9486-f6712103d712")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -162,7 +162,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a2ef681f-6537-4960-80e9-58f4e5f795cb")
+			(uuid "3dc24075-3a62-412e-b82a-c4d74faf6534")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -170,7 +170,7 @@
 				)
 			)
 		)
-		(path "/2d6700a6-489b-42f3-9e6b-6f81b301efd1")
+		(path "/03025e7e-1065-45ec-8c38-775d446936e3")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr through_hole)
@@ -412,7 +412,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 37 "col-3")
+			(net 39 "col-5")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "fd5276f4-8688-4329-935f-809f57e9e59f")
@@ -423,7 +423,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 26 "Net-(D22-A)")
+			(net 28 "Net-(D24-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "0b37dadb-f840-4d22-b8c7-25f98bcfd5e2")
@@ -444,13 +444,13 @@
 	(footprint "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "0edbbadd-bbc5-4f04-992a-73156ec8f36f")
-		(at 76.2 59.53125)
+		(at 114.3 66.675)
 		(descr "Cherry MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
-		(property "Reference" "SW8"
+		(property "Reference" "SW9"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "c5e1e16b-638e-4543-aaf3-9bdaccbedc89")
+			(uuid "10ebdf3d-4611-4e12-a021-5c96893a6f9d")
 			(effects
 				(font
 					(size 1 1)
@@ -461,7 +461,7 @@
 		(property "Value" "Switch"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "b320279e-e909-4710-a462-7090cdb6f2ae")
+			(uuid "98e312bb-fc33-4b21-b74f-8ecdd78c129e")
 			(effects
 				(font
 					(size 1 1)
@@ -473,7 +473,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "272c04ac-1f95-4757-b0d2-c5da17c4aa58")
+			(uuid "587cf1a0-4e6e-417a-a2d2-136976105650")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -485,7 +485,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b44848da-e8da-45fb-9091-154173aa0b56")
+			(uuid "59df8b98-12f7-4660-842f-34a1ba8ed7d8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -493,7 +493,7 @@
 				)
 			)
 		)
-		(path "/353855d8-37be-4057-99d5-9bb8571517f1")
+		(path "/a963b5ee-8cc8-4c7b-a96c-131196c5ba77")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr through_hole)
@@ -735,7 +735,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 35 "col-1")
+			(net 36 "col-2")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "81f465df-610b-4182-8535-0497210b5a07")
@@ -746,7 +746,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 10 "Net-(D8-A)")
+			(net 11 "Net-(D9-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "f400c47b-a81d-49ac-9b8b-d7bb8ab8d0b2")
@@ -767,13 +767,13 @@
 	(footprint "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "16a0ee5d-1c16-473f-9d81-128ae7dbced3")
-		(at 114.3 78.58125)
+		(at 152.4 85.725)
 		(descr "Cherry MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
-		(property "Reference" "SW15"
+		(property "Reference" "SW17"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "c2d25937-9fb2-4426-a5af-ed3f35ef3e6d")
+			(uuid "84610a08-a46d-4773-8fab-7ccc94b5a81f")
 			(effects
 				(font
 					(size 1 1)
@@ -784,7 +784,7 @@
 		(property "Value" "Switch"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "82cb7478-9325-4d21-b852-4b77c471bc97")
+			(uuid "436dfc4c-300d-40b9-9ed8-b308f5e990c0")
 			(effects
 				(font
 					(size 1 1)
@@ -796,7 +796,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e7e0cfca-7be8-4f37-a366-32bf090c2548")
+			(uuid "83c0917d-4902-4194-ba2d-cb0b3e320dd6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -808,7 +808,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fa20ea92-9577-4dc1-8971-cffa7b040b01")
+			(uuid "f6972a32-78a7-41b6-bf17-0186435cfca4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -816,7 +816,7 @@
 				)
 			)
 		)
-		(path "/a5168c89-803a-4575-8d67-e9fd065c423a")
+		(path "/53610013-fd0e-4322-8105-f404e48f97a3")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr through_hole)
@@ -1058,7 +1058,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 36 "col-2")
+			(net 38 "col-4")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "15a3b419-a21f-492b-bcdd-0bb7453665a8")
@@ -1069,7 +1069,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 18 "Net-(D15-A)")
+			(net 20 "Net-(D17-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "56a79259-2d9a-42b9-bf97-d9dd3c089826")
@@ -1090,13 +1090,13 @@
 	(footprint "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.25u_90deg"
 		(layer "F.Cu")
 		(uuid "2382a3c4-28e2-4dc9-8d8a-c450031a4217")
-		(at 146.370675 125.487458 -23.88)
+		(at 184.470675 132.631208 -23.88)
 		(descr "Cherry MX keyswitch PCB Mount Keycap 1.25u 90deg")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.25u 90deg")
 		(property "Reference" "SW28"
 			(at -0.000001 -8 336.12)
 			(layer "F.SilkS")
-			(uuid "7d50612e-e70d-4468-9239-01a1fae8bf21")
+			(uuid "6cd4369f-69f3-4d23-95d6-6c7d69a99fef")
 			(effects
 				(font
 					(size 1 1)
@@ -1107,7 +1107,7 @@
 		(property "Value" "Switch"
 			(at 0.000001 8 336.12)
 			(layer "F.Fab")
-			(uuid "231019cd-0018-4c74-9f9f-be93c5bbcd54")
+			(uuid "facbdd0d-62ea-4aba-a1e2-b569c997f289")
 			(effects
 				(font
 					(size 1 1)
@@ -1119,7 +1119,7 @@
 			(at 0 0 336.12)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "83e68c41-1ee9-4dfc-ae54-f29ae9887f11")
+			(uuid "9eda04a2-c976-49a0-93b7-61245628f923")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1131,7 +1131,7 @@
 			(at 0 0 336.12)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d97ef109-bf09-4719-8e29-e8e83655456a")
+			(uuid "d13a3765-e893-491b-8a51-117391584fac")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1413,13 +1413,13 @@
 	(footprint "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "281ebc41-9eec-49a3-8185-6879a0bf33a1")
-		(at 95.25 95.25)
+		(at 133.35 102.39375)
 		(descr "Cherry MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
-		(property "Reference" "SW19"
+		(property "Reference" "SW22"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "b24aa406-b1ba-4a52-b2e9-efa4aeeb448a")
+			(uuid "e7f978bd-1303-4472-81dd-c698ebdf782a")
 			(effects
 				(font
 					(size 1 1)
@@ -1430,7 +1430,7 @@
 		(property "Value" "Switch"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "a342afbc-064e-4bd1-9fb5-7dbb9f968e9a")
+			(uuid "3daa8d0d-191a-4387-b411-7114ea221de1")
 			(effects
 				(font
 					(size 1 1)
@@ -1442,7 +1442,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e519be75-0c85-45e3-95cd-2f3f387c2783")
+			(uuid "b23272a9-0bb5-4c27-ad62-bf5e556c5016")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1454,7 +1454,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0076f091-5369-4858-828f-ba56f2d0dae6")
+			(uuid "3248e638-8480-424b-a9fd-0e7fe900eead")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1462,7 +1462,7 @@
 				)
 			)
 		)
-		(path "/f9d438fe-e15f-4219-a653-c6c42c88bdfd")
+		(path "/2d6700a6-489b-42f3-9e6b-6f81b301efd1")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr through_hole)
@@ -1704,7 +1704,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 34 "col-0")
+			(net 37 "col-3")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "646e51f4-e7af-4662-88a3-356f8c97fdec")
@@ -1715,7 +1715,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 23 "Net-(D19-A)")
+			(net 26 "Net-(D22-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "6d4f2411-5dbe-4b44-9cc6-993ddf870302")
@@ -1736,13 +1736,13 @@
 	(footprint "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "31b8a606-0f8d-4d0c-b008-e3018e7ce588")
-		(at 125.5395 121.239643 -11.94)
+		(at 163.6395 128.383393 -11.94)
 		(descr "Cherry MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
 		(property "Reference" "SW27"
 			(at 0 -8 168.06)
 			(layer "F.SilkS")
-			(uuid "48b10066-26ef-4dd1-a8ad-d79074cf7c43")
+			(uuid "78badee3-00e5-42d5-953d-0c234c684de9")
 			(effects
 				(font
 					(size 1 1)
@@ -1753,7 +1753,7 @@
 		(property "Value" "Switch"
 			(at 0 8 168.06)
 			(layer "F.Fab")
-			(uuid "4708fc5d-9949-4d24-8377-de042cb36bea")
+			(uuid "ff9c4ecf-17c6-4388-897e-8187e76cd226")
 			(effects
 				(font
 					(size 1 1)
@@ -1765,7 +1765,7 @@
 			(at 0 0 168.06)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7bd53378-9ec3-49dc-900a-e94522802f39")
+			(uuid "12829385-976e-44c5-84a6-cfcdb642d575")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1777,7 +1777,7 @@
 			(at 0 0 168.06)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7558a88e-a527-40e8-9f7a-2a6ee854e219")
+			(uuid "8d2cfa4b-fb37-4143-b251-1c0929ec373f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2059,13 +2059,13 @@
 	(footprint "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "3ae9d8db-077d-4295-88e9-fd5d0fa6f1c5")
-		(at 38.1 45.24375)
+		(at 76.2 52.3875)
 		(descr "Cherry MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
-		(property "Reference" "SW5"
+		(property "Reference" "SW1"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "66e5516c-9ec9-4d22-8197-24fa782ac8b1")
+			(uuid "f5b521bd-0c1b-4a05-a814-97aab20667e9")
 			(effects
 				(font
 					(size 1 1)
@@ -2076,7 +2076,7 @@
 		(property "Value" "Switch"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "11d9fb18-23ad-41d5-ba81-3b5492fa4f06")
+			(uuid "d62f4801-cc7e-4732-952c-6702fcd5ce51")
 			(effects
 				(font
 					(size 1 1)
@@ -2088,7 +2088,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3a1afba4-ea0a-4276-8847-349d951e7c58")
+			(uuid "87b418ec-0568-4792-9160-306facc8162e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2100,7 +2100,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5c0f4c57-1c08-4e9d-ab64-bc5a1284302e")
+			(uuid "96044049-670c-4b2d-83f8-afae55a3f95f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2108,7 +2108,7 @@
 				)
 			)
 		)
-		(path "/3f7b6e4c-e092-42d0-8783-a4a3af234240")
+		(path "/a4a93cfe-5f08-4d2d-b357-4aef6a1c3c62")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr through_hole)
@@ -2350,7 +2350,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 38 "col-4")
+			(net 34 "col-0")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "40438086-aeb9-43d7-aa82-99cdfcfb5242")
@@ -2361,7 +2361,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 6 "Net-(D5-A)")
+			(net 2 "Net-(D1-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "d7f013d4-d5b0-4719-80df-b5a46df0163d")
@@ -2382,13 +2382,13 @@
 	(footprint "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "3c28aa82-30af-4772-8991-0731daf6ce53")
-		(at 133.35 42.8625)
+		(at 171.45 50.00625)
 		(descr "Cherry MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
-		(property "Reference" "SW4"
+		(property "Reference" "SW6"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "9ec60106-3838-47bd-9365-c4a285774bd5")
+			(uuid "518addcb-cbb3-46c4-a4d0-d71c905163a9")
 			(effects
 				(font
 					(size 1 1)
@@ -2399,7 +2399,7 @@
 		(property "Value" "Switch"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "8e89f196-b2e3-4475-a4b1-7ee342754665")
+			(uuid "3e74d9c1-4d2e-41e3-8f99-684a339fa575")
 			(effects
 				(font
 					(size 1 1)
@@ -2411,7 +2411,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2a7595f5-e127-4ad6-be2b-41475aef434a")
+			(uuid "6225268e-200d-4569-85b6-c695ae6e8177")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2423,7 +2423,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b15226b2-e158-4d44-86da-a7a4b76e548b")
+			(uuid "8e6da202-9ecd-4d8c-a5c1-fa76a04dd009")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2431,7 +2431,7 @@
 				)
 			)
 		)
-		(path "/48907d27-bca2-4563-b9c6-283b20c03d3b")
+		(path "/309e2b35-943b-4172-b6e3-78262fa1588c")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr through_hole)
@@ -2673,7 +2673,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 37 "col-3")
+			(net 39 "col-5")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "d703cec8-614e-44f2-bba4-89cc05b3b7e8")
@@ -2684,7 +2684,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 5 "Net-(D4-A)")
+			(net 7 "Net-(D6-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "b3d1d0b7-9621-4502-a4b9-76d20a797561")
@@ -2705,13 +2705,13 @@
 	(footprint "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "418e282a-15c4-499a-b439-ac7750cb7f19")
-		(at 57.15 83.34375)
+		(at 95.25 90.4875)
 		(descr "Cherry MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
-		(property "Reference" "SW18"
+		(property "Reference" "SW14"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "c36157c3-4abd-4f22-ab9b-bc8542b6616e")
+			(uuid "e644c793-0b4e-41a7-b304-2bcc77fa0689")
 			(effects
 				(font
 					(size 1 1)
@@ -2722,7 +2722,7 @@
 		(property "Value" "Switch"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "e2c541f6-57cd-4813-b4df-21a812cc7547")
+			(uuid "6b9bb40f-8685-44e6-a834-f4bdd7d27912")
 			(effects
 				(font
 					(size 1 1)
@@ -2734,7 +2734,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f940d8d4-0b4c-49d4-8a01-26244f7ee8e5")
+			(uuid "3ce5d311-1a00-4fe4-a46c-72183cee861d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2746,7 +2746,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "72ad1025-7b78-498b-8346-2e4b21a1da1e")
+			(uuid "cd3ea6e8-abd5-4259-99d8-6601052024d5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2754,7 +2754,7 @@
 				)
 			)
 		)
-		(path "/765d018e-2c8c-43b2-b29e-619499ede547")
+		(path "/751b9507-e217-490a-865c-ec8835dea057")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr through_hole)
@@ -2996,7 +2996,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 39 "col-5")
+			(net 35 "col-1")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "06de21f1-85fb-4135-b9be-d40906999f26")
@@ -3007,7 +3007,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 21 "Net-(D18-A)")
+			(net 17 "Net-(D14-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "594cfa6d-966a-49a6-8de6-e2494f2b268c")
@@ -3028,13 +3028,13 @@
 	(footprint "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "52ff76a8-46cd-488a-bee1-02494a6fe865")
-		(at 114.3 97.63125)
+		(at 152.4 104.775)
 		(descr "Cherry MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
-		(property "Reference" "SW21"
+		(property "Reference" "SW23"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "7a299d43-c527-4630-9b03-eb627cfe19f8")
+			(uuid "4aa0b92b-a20f-498f-82a6-e5ce08d890c7")
 			(effects
 				(font
 					(size 1 1)
@@ -3045,7 +3045,7 @@
 		(property "Value" "Switch"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "aa138104-683b-4794-ae61-94edafe0b99b")
+			(uuid "abd283b0-c139-4c7d-92e4-12489babd097")
 			(effects
 				(font
 					(size 1 1)
@@ -3057,7 +3057,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a9d25bf0-add1-44b6-b8c7-9e4d0f3cfb67")
+			(uuid "8d05dd00-3326-4916-b798-6412ea466ed6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3069,7 +3069,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "41c14e16-7474-46be-829e-3af6f0ae9df8")
+			(uuid "a46a4a8b-223f-4f39-a81d-d925eecd09c3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3077,7 +3077,7 @@
 				)
 			)
 		)
-		(path "/08cb5579-176c-4b1b-979d-d881b50eb1a1")
+		(path "/9928c395-89a4-4d3e-939d-02e80b11a3a9")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr through_hole)
@@ -3319,7 +3319,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 36 "col-2")
+			(net 38 "col-4")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "1a13c8a9-c468-4bdd-823a-f5163e2ad8ed")
@@ -3330,7 +3330,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 25 "Net-(D21-A)")
+			(net 27 "Net-(D23-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "cc0d3c2c-27e8-4865-8b0c-6eae2fed392a")
@@ -3351,13 +3351,13 @@
 	(footprint "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "53b0816e-b826-4b23-a29b-3f77106f2cc7")
-		(at 114.3 59.53125)
+		(at 152.4 66.675)
 		(descr "Cherry MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
-		(property "Reference" "SW9"
+		(property "Reference" "SW11"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "34b1c0ed-58ed-4193-8c4b-48db99146f61")
+			(uuid "0c1a0ef1-a592-4f1c-96cd-f5ae2895cc5e")
 			(effects
 				(font
 					(size 1 1)
@@ -3368,7 +3368,7 @@
 		(property "Value" "Switch"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "f549ba20-eed7-4f99-8430-6fce6bcb530a")
+			(uuid "58c61c74-34ef-4d95-82a7-5cdc25ff4c2a")
 			(effects
 				(font
 					(size 1 1)
@@ -3380,7 +3380,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a81e9cfa-c6de-4639-b970-bda3ef7e35ab")
+			(uuid "b8e3b020-63b0-4b92-977b-d436d65acea9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3392,7 +3392,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "747b86d5-bc40-4bf3-a87b-d0a6f3ccf6c7")
+			(uuid "10dc3508-823f-4c84-a2ed-8cf440a2dba9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3400,7 +3400,7 @@
 				)
 			)
 		)
-		(path "/a963b5ee-8cc8-4c7b-a96c-131196c5ba77")
+		(path "/783cd4fd-329d-4ec3-bc65-768b2d5b54cc")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr through_hole)
@@ -3642,7 +3642,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 36 "col-2")
+			(net 38 "col-4")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "a6f20d0d-5ea1-4489-b199-93142c139b0b")
@@ -3653,7 +3653,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 11 "Net-(D9-A)")
+			(net 13 "Net-(D11-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "47fd979a-2cb2-4079-a7b9-da57716d5538")
@@ -3674,13 +3674,13 @@
 	(footprint "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "56b6d650-81c1-4801-bbe6-2f37f0a6b1b7")
-		(at 57.15 64.29375)
+		(at 95.25 71.4375)
 		(descr "Cherry MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
-		(property "Reference" "SW12"
+		(property "Reference" "SW8"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "f1e70689-5f06-4f4a-9784-ca050000c242")
+			(uuid "e290c449-5fa4-4343-b5d2-155ef84148a2")
 			(effects
 				(font
 					(size 1 1)
@@ -3691,7 +3691,7 @@
 		(property "Value" "Switch"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "88a7e850-f533-4762-8689-fcef3677c0a2")
+			(uuid "213efc92-b97d-4687-ba43-317a829d4c48")
 			(effects
 				(font
 					(size 1 1)
@@ -3703,7 +3703,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "47410e21-fba3-451a-acca-d330a50d0113")
+			(uuid "325b000a-5457-4dc6-8bce-2cb97dd5d27b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3715,7 +3715,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ac966764-429e-49ce-95b7-079636934ebf")
+			(uuid "0a90df45-4e02-4eeb-b67f-0df3473d0498")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3723,7 +3723,7 @@
 				)
 			)
 		)
-		(path "/ad2949d4-566b-4960-94b2-9f0ca1f5c4d6")
+		(path "/353855d8-37be-4057-99d5-9bb8571517f1")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr through_hole)
@@ -3965,7 +3965,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 39 "col-5")
+			(net 35 "col-1")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "0fab56e2-0c5b-491a-8c21-3c70a4e6ddec")
@@ -3976,7 +3976,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 14 "Net-(D12-A)")
+			(net 10 "Net-(D8-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "8a98561c-89f2-4041-9710-db9703a4a2f0")
@@ -3997,13 +3997,13 @@
 	(footprint "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "64941dda-15a5-41c4-9bad-76ac960f30aa")
-		(at 76.2 40.48125)
+		(at 114.3 47.625)
 		(descr "Cherry MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
-		(property "Reference" "SW2"
+		(property "Reference" "SW3"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "cedeed0d-4438-4c40-9365-9055e47f43af")
+			(uuid "e6031e6e-5aa0-4925-a3dd-eac283a9917d")
 			(effects
 				(font
 					(size 1 1)
@@ -4014,7 +4014,7 @@
 		(property "Value" "Switch"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "2299c8f9-8c6e-49e4-bfef-1f8c96de71dc")
+			(uuid "2fbaff10-2d1b-48bb-ac26-41171348cd9e")
 			(effects
 				(font
 					(size 1 1)
@@ -4026,7 +4026,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bc5607a0-ee00-4210-bb22-8eb2075a53de")
+			(uuid "83750e3c-1e9f-4911-b002-ef5fd43aa49e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4038,7 +4038,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8186560a-53b4-4dbb-9e11-4ea87cbc88e1")
+			(uuid "e0517f2d-d82e-4458-834c-ed3aec7c2ae3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4046,7 +4046,7 @@
 				)
 			)
 		)
-		(path "/2cbda2f5-f8f4-49b3-8aa0-08fe2ae25184")
+		(path "/d3b1e68d-261b-4981-a795-bd7151102f79")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr through_hole)
@@ -4288,7 +4288,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 35 "col-1")
+			(net 36 "col-2")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "19728faa-1bc4-46ca-b8ab-659c1ef28c78")
@@ -4299,7 +4299,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 3 "Net-(D2-A)")
+			(net 4 "Net-(D3-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "157b53fb-e956-43b3-98f1-f76242180e5a")
@@ -4320,13 +4320,13 @@
 	(footprint "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "6b4c66d4-825b-4d97-9a2f-e25eb0e20890")
-		(at 84.0105 121.239643 11.94)
+		(at 122.1105 128.383393 11.94)
 		(descr "Cherry MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
 		(property "Reference" "SW25"
 			(at 0 -8 11.94)
 			(layer "F.SilkS")
-			(uuid "f550bbc1-90eb-4fdb-b9cc-0e16ea35191f")
+			(uuid "2f3c33c2-0289-43f8-a90e-160eeb070bbd")
 			(effects
 				(font
 					(size 1 1)
@@ -4337,7 +4337,7 @@
 		(property "Value" "Switch"
 			(at 0 8 11.94)
 			(layer "F.Fab")
-			(uuid "2886504e-9fea-4a40-9aa2-f984585b3953")
+			(uuid "f60b31fa-802a-4a44-a7fa-ac9f038342c9")
 			(effects
 				(font
 					(size 1 1)
@@ -4349,7 +4349,7 @@
 			(at 0 0 11.94)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "62427518-be8b-43e6-9692-3301ec7e999a")
+			(uuid "0666e249-05c3-4c89-b013-065216e61608")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4361,7 +4361,7 @@
 			(at 0 0 11.94)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e5192e5a-2228-409a-b860-1b3d81e98173")
+			(uuid "f3df6cf4-703a-475a-98df-759875154769")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4643,13 +4643,13 @@
 	(footprint "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "73893104-7fd7-4c4e-b56a-853f8c57f988")
-		(at 133.35 80.9625)
+		(at 171.45 88.10625)
 		(descr "Cherry MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
-		(property "Reference" "SW16"
+		(property "Reference" "SW18"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "4fa451e0-a5d9-4cf4-946a-53e9939e03b3")
+			(uuid "2317646a-e4a3-4b4a-93d1-46bbf726a983")
 			(effects
 				(font
 					(size 1 1)
@@ -4660,7 +4660,7 @@
 		(property "Value" "Switch"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "e5aa45e1-5909-4fc9-9ddf-94056ba6810c")
+			(uuid "6e9c51e5-9fbe-4abc-aca7-9d8016cf4928")
 			(effects
 				(font
 					(size 1 1)
@@ -4672,7 +4672,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a4031eef-11e9-4793-ac90-85964352d937")
+			(uuid "f79b9442-9dcc-4be1-9b54-2a42f98a6d6e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4684,7 +4684,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4a3b01b7-30b8-42f3-9eeb-7ae2d3fa9f8c")
+			(uuid "aee590c7-362e-4519-9be3-82053ac2a708")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4692,7 +4692,7 @@
 				)
 			)
 		)
-		(path "/d60fbcf6-adad-4a8e-b0ae-5c15ef556a0e")
+		(path "/765d018e-2c8c-43b2-b29e-619499ede547")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr through_hole)
@@ -4934,7 +4934,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 37 "col-3")
+			(net 39 "col-5")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "93e00cbd-09c7-4c5f-9f83-36f90304649e")
@@ -4945,7 +4945,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 19 "Net-(D16-A)")
+			(net 21 "Net-(D18-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "6e65806a-6ae1-4b32-8ad6-64e0f7e21bda")
@@ -4966,13 +4966,13 @@
 	(footprint "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "80a66eb5-2566-4b75-bcb5-e5eae552d703")
-		(at 95.25 38.1)
+		(at 133.35 45.24375)
 		(descr "Cherry MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
-		(property "Reference" "SW1"
+		(property "Reference" "SW4"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "0bef35a5-1dc2-46ea-af0c-b26dabebebb2")
+			(uuid "023bd605-ef76-4f27-9fb0-42c3746baa43")
 			(effects
 				(font
 					(size 1 1)
@@ -4983,7 +4983,7 @@
 		(property "Value" "Switch"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "4f6f43fe-24c2-47c7-9bdf-76a96098121e")
+			(uuid "f25cd608-1568-4bc8-bc3c-4546d49a706b")
 			(effects
 				(font
 					(size 1 1)
@@ -4995,7 +4995,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "78000fd9-12d2-4d7c-9437-fd6580578545")
+			(uuid "b9e3a68c-beb0-4e4b-b595-7e8043f038d2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5007,7 +5007,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "707996c1-f622-4493-a756-6ea5ecd3011a")
+			(uuid "062df1f6-41cf-4270-863d-839dbff7faab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5015,7 +5015,7 @@
 				)
 			)
 		)
-		(path "/a4a93cfe-5f08-4d2d-b357-4aef6a1c3c62")
+		(path "/48907d27-bca2-4563-b9c6-283b20c03d3b")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr through_hole)
@@ -5257,7 +5257,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 34 "col-0")
+			(net 37 "col-3")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "df0e508f-1bfc-4ea6-a9cb-176c81427716")
@@ -5268,7 +5268,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "Net-(D1-A)")
+			(net 5 "Net-(D4-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "4988cdb8-5038-4aad-8f0b-99af34a87bd7")
@@ -5289,13 +5289,13 @@
 	(footprint "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "8f1ebbc6-b7a6-4b10-890b-5835f793aa15")
-		(at 133.35 61.9125)
+		(at 171.45 69.05625)
 		(descr "Cherry MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
-		(property "Reference" "SW10"
+		(property "Reference" "SW12"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "b755cba5-994d-4ef1-9d0c-e26b7d8b7046")
+			(uuid "88409d07-9f34-4df2-85b3-27647b26d995")
 			(effects
 				(font
 					(size 1 1)
@@ -5306,7 +5306,7 @@
 		(property "Value" "Switch"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "bc0a0de9-d0fa-40e8-a10f-8d0afc041f9e")
+			(uuid "e306cad9-68b7-4299-9a8d-eda6d2cb1c4a")
 			(effects
 				(font
 					(size 1 1)
@@ -5318,7 +5318,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ebd9afd3-55fe-4a01-88c6-5c2da8fa7f74")
+			(uuid "5e31f07a-9e0e-4ebe-8739-0252efff8f42")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5330,7 +5330,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0ab774c0-b118-418a-ac36-b70cf5a31ff4")
+			(uuid "bbba3bca-14dc-4d7a-9a7f-ce55eab4e8df")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5338,7 +5338,7 @@
 				)
 			)
 		)
-		(path "/de57a382-2faf-4386-a22e-92a9f8b5e4c9")
+		(path "/ad2949d4-566b-4960-94b2-9f0ca1f5c4d6")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr through_hole)
@@ -5580,7 +5580,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 37 "col-3")
+			(net 39 "col-5")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "5dfa8c30-f38b-44b0-9b8d-bddfb2880f70")
@@ -5591,7 +5591,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 12 "Net-(D10-A)")
+			(net 14 "Net-(D12-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "ff959ea3-13cd-4cc0-86df-632567ae8abb")
@@ -5612,13 +5612,13 @@
 	(footprint "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "93188b07-dbff-4d1f-8ecc-48c16070ee93")
-		(at 57.15 102.39375)
+		(at 95.25 109.5375)
 		(descr "Cherry MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
-		(property "Reference" "SW24"
+		(property "Reference" "SW20"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "8d02827b-2345-4ff0-8ced-ec24b5a42b11")
+			(uuid "7acae18f-692c-4c91-9779-9374e5e2dcf2")
 			(effects
 				(font
 					(size 1 1)
@@ -5629,7 +5629,7 @@
 		(property "Value" "Switch"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "c43d4070-017d-4c33-bdf0-d5757ca7c893")
+			(uuid "af9298a5-978e-4876-ae01-a57910764af2")
 			(effects
 				(font
 					(size 1 1)
@@ -5641,7 +5641,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "325adf90-3b1d-4148-aa80-95c04fd384ed")
+			(uuid "dd8ad10c-1511-4dd8-a57e-d59f84ed5b99")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5653,7 +5653,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cab343f6-dd11-47e5-9ce7-a71a5faefed7")
+			(uuid "f4889330-41a9-4d26-9058-2036e5fff9de")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5661,7 +5661,7 @@
 				)
 			)
 		)
-		(path "/03025e7e-1065-45ec-8c38-775d446936e3")
+		(path "/04c1971b-146e-4e29-b0bd-c2bde0f79a62")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr through_hole)
@@ -5903,7 +5903,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 39 "col-5")
+			(net 35 "col-1")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "1009a510-f634-4742-8c17-320e68afcb24")
@@ -5914,7 +5914,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 28 "Net-(D24-A)")
+			(net 24 "Net-(D20-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "47861153-6628-4ecf-bbec-34e44ac4c068")
@@ -5935,13 +5935,13 @@
 	(footprint "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "9c3bcbe8-4925-4bbf-8efb-f04595a27007")
-		(at 57.15 45.24375)
+		(at 95.25 52.3875)
 		(descr "Cherry MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
-		(property "Reference" "SW6"
+		(property "Reference" "SW2"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "0cde20f4-2c0b-42b1-af7f-b564fedf7b31")
+			(uuid "676fa2c5-cc8d-4890-b210-73ff30fba6a9")
 			(effects
 				(font
 					(size 1 1)
@@ -5952,7 +5952,7 @@
 		(property "Value" "Switch"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "c8cb5b07-92fd-4723-9031-a6f70949d5a2")
+			(uuid "4a3da4d6-9a41-4a04-8f05-61e6e5e61840")
 			(effects
 				(font
 					(size 1 1)
@@ -5964,7 +5964,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b5b55fcb-a20c-4740-bb88-2854cdcaa547")
+			(uuid "a302660c-f93d-41e9-8761-85f5dbe674f9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5976,7 +5976,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "633d3461-0085-488b-8053-52a21bd22b56")
+			(uuid "76de4d6f-5ef0-4d22-93ed-313ea7daa7d7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5984,7 +5984,7 @@
 				)
 			)
 		)
-		(path "/309e2b35-943b-4172-b6e3-78262fa1588c")
+		(path "/2cbda2f5-f8f4-49b3-8aa0-08fe2ae25184")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr through_hole)
@@ -6226,7 +6226,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 39 "col-5")
+			(net 35 "col-1")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "a0fefe47-63c4-4ad5-a34b-b14de7d024e5")
@@ -6237,7 +6237,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 7 "Net-(D6-A)")
+			(net 3 "Net-(D2-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "efd6d17f-18ac-4966-be18-2d429dbe51c9")
@@ -6258,13 +6258,13 @@
 	(footprint "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "9e992cfd-b9f0-45c2-a3cb-035c2c3786d1")
-		(at 95.25 57.15)
+		(at 133.35 64.29375)
 		(descr "Cherry MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
-		(property "Reference" "SW7"
+		(property "Reference" "SW10"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "8082bd4a-0019-443d-8f87-1884eb5f7615")
+			(uuid "d5c72f15-8bec-4733-8ec1-514cb9e34d55")
 			(effects
 				(font
 					(size 1 1)
@@ -6275,7 +6275,7 @@
 		(property "Value" "Switch"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "0c975bb9-c144-4244-8d87-bde74ece3b17")
+			(uuid "385b1879-8e14-40dc-a850-90f74de39da6")
 			(effects
 				(font
 					(size 1 1)
@@ -6287,7 +6287,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f05f8b7c-af12-4520-840b-2751c8c9342b")
+			(uuid "8d1d0fd6-f48c-4db5-b21e-0727e37c6d2f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6299,7 +6299,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c46927e8-c8cf-41da-91bb-c2f84a19cde9")
+			(uuid "5950b6f3-221a-48ae-8497-c3d24ce0987d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6307,7 +6307,7 @@
 				)
 			)
 		)
-		(path "/81ce0cd6-53e7-446d-8977-2d2406abaa6c")
+		(path "/de57a382-2faf-4386-a22e-92a9f8b5e4c9")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr through_hole)
@@ -6549,7 +6549,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 34 "col-0")
+			(net 37 "col-3")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "099d8082-1def-4145-9014-1a723a5330f9")
@@ -6560,7 +6560,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 9 "Net-(D7-A)")
+			(net 12 "Net-(D10-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "f2de3632-7098-48d6-a118-c522f0397b59")
@@ -6581,13 +6581,13 @@
 	(footprint "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "a177c614-b4e2-4dc0-8259-d1358bb209ab")
-		(at 114.3 40.48125)
+		(at 152.4 47.625)
 		(descr "Cherry MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
-		(property "Reference" "SW3"
+		(property "Reference" "SW5"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "9c0785fe-5aa2-4bb4-8ab2-0a8bf9b31938")
+			(uuid "c0d6ec29-63f9-4a2e-b005-5c3e689065d5")
 			(effects
 				(font
 					(size 1 1)
@@ -6598,7 +6598,7 @@
 		(property "Value" "Switch"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "aebf9508-f4d8-4909-b79b-88577d5e1801")
+			(uuid "eae5f203-f4ba-4291-88c2-01e2637e8379")
 			(effects
 				(font
 					(size 1 1)
@@ -6610,7 +6610,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ae18aad4-9a77-4602-8f23-e0827b531a18")
+			(uuid "3e409f6e-c7d1-451f-8cca-ab0dccdd259e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6622,7 +6622,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "56bc7aed-ac54-4f4b-93ea-5ae5973fb3ed")
+			(uuid "b1010ff6-6614-4d27-a818-db5b94057f6f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6630,7 +6630,7 @@
 				)
 			)
 		)
-		(path "/d3b1e68d-261b-4981-a795-bd7151102f79")
+		(path "/3f7b6e4c-e092-42d0-8783-a4a3af234240")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr through_hole)
@@ -6872,7 +6872,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 36 "col-2")
+			(net 38 "col-4")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "4afc6cf7-f52c-4e09-a983-00fab8e019bc")
@@ -6883,7 +6883,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 4 "Net-(D3-A)")
+			(net 6 "Net-(D5-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "0f9e8a2d-05e2-4cef-836b-8c43aba992b0")
@@ -6904,13 +6904,13 @@
 	(footprint "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "a48f6c2c-b45d-452b-81e9-849f288bfa7f")
-		(at 76.2 97.63125)
+		(at 114.3 104.775)
 		(descr "Cherry MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
-		(property "Reference" "SW20"
+		(property "Reference" "SW21"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "2baf7061-e2d7-4fec-884a-a651a340bac7")
+			(uuid "3ee0f2c2-b3ac-463a-9b8b-8893d53a8fd8")
 			(effects
 				(font
 					(size 1 1)
@@ -6921,7 +6921,7 @@
 		(property "Value" "Switch"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "2018a329-11de-42a9-b823-0aa620aaa6fd")
+			(uuid "e1ae7f2a-d7d8-40df-8ff1-c90ff0f0224c")
 			(effects
 				(font
 					(size 1 1)
@@ -6933,7 +6933,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "940e393e-6f0d-46c8-8c53-ff31330419c5")
+			(uuid "2ea73c1a-caea-45ff-9e6c-37a090032993")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6945,7 +6945,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0ed0c0d3-f3c3-4c94-a4f6-db63d24341c0")
+			(uuid "96707ad7-973f-41f8-80b2-aaf085c110ac")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6953,7 +6953,7 @@
 				)
 			)
 		)
-		(path "/04c1971b-146e-4e29-b0bd-c2bde0f79a62")
+		(path "/08cb5579-176c-4b1b-979d-d881b50eb1a1")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr through_hole)
@@ -7195,7 +7195,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 35 "col-1")
+			(net 36 "col-2")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "8704ceac-60fd-4c0a-961a-2ef5c8d81b40")
@@ -7206,7 +7206,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 24 "Net-(D20-A)")
+			(net 25 "Net-(D21-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "866f3472-6335-4eb6-a2bf-aa910d064d82")
@@ -7227,13 +7227,13 @@
 	(footprint "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "a55d43f7-8f4e-43ba-91a6-3bda687ea3e8")
-		(at 38.1 83.34375)
+		(at 76.2 90.4875)
 		(descr "Cherry MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
-		(property "Reference" "SW17"
+		(property "Reference" "SW13"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "c20b94e3-b013-4734-b336-41e09ab34121")
+			(uuid "1be25b8d-85e6-41c2-ae28-e53faf3772c9")
 			(effects
 				(font
 					(size 1 1)
@@ -7244,7 +7244,7 @@
 		(property "Value" "Switch"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "42c32247-65ab-4729-83e2-481931f6bea9")
+			(uuid "a832dae0-a4c1-4e60-aa10-493209b47902")
 			(effects
 				(font
 					(size 1 1)
@@ -7256,7 +7256,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f6503978-234e-48aa-b236-f37abd198fd6")
+			(uuid "e1a1b1e1-ef5e-4c93-af99-15278097823d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7268,7 +7268,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f94c986e-f310-4ae0-8a8a-b48547c0293f")
+			(uuid "14943cdf-7af1-4347-bb28-94cfba311cb4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7276,7 +7276,7 @@
 				)
 			)
 		)
-		(path "/53610013-fd0e-4322-8105-f404e48f97a3")
+		(path "/db43c1a8-8b1a-4be9-b24c-1ba1f94cf1f8")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr through_hole)
@@ -7518,7 +7518,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 38 "col-4")
+			(net 34 "col-0")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "34b6f34d-e2e9-4384-8121-3c2881e2ba29")
@@ -7529,7 +7529,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 20 "Net-(D17-A)")
+			(net 15 "Net-(D13-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "83b8ebe3-435e-4753-95be-743e983347bd")
@@ -7550,13 +7550,13 @@
 	(footprint "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "a563e445-3028-4cc3-9c83-64440fe1be02")
-		(at 76.2 78.58125)
+		(at 114.3 85.725)
 		(descr "Cherry MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
-		(property "Reference" "SW14"
+		(property "Reference" "SW15"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "a534097a-00da-4637-8b61-310914fd579c")
+			(uuid "d548b4d9-ba97-4c8a-9e68-c49195455846")
 			(effects
 				(font
 					(size 1 1)
@@ -7567,7 +7567,7 @@
 		(property "Value" "Switch"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "3646e96f-7a2d-4a5f-a0a7-79c31ef39672")
+			(uuid "68041a74-1b64-4e6d-a8ed-088fb7229220")
 			(effects
 				(font
 					(size 1 1)
@@ -7579,7 +7579,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3e875c02-f155-4b03-9675-a4c028b78dac")
+			(uuid "a36c18df-58ea-49ed-96c2-1a55b4932c8e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7591,7 +7591,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "844a06a8-41ee-49c9-a777-eb2d80d5a34e")
+			(uuid "1e2eedb6-6457-45b7-8bdd-ec2f7eb74905")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7599,7 +7599,7 @@
 				)
 			)
 		)
-		(path "/751b9507-e217-490a-865c-ec8835dea057")
+		(path "/a5168c89-803a-4575-8d67-e9fd065c423a")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr through_hole)
@@ -7841,7 +7841,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 35 "col-1")
+			(net 36 "col-2")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "4f9962eb-b820-466e-90d9-b4c0469d22f4")
@@ -7852,7 +7852,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 17 "Net-(D14-A)")
+			(net 18 "Net-(D15-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "de01ae85-4ed7-475e-9a51-0faa3c748928")
@@ -7873,13 +7873,13 @@
 	(footprint "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "ae84825e-5035-49f1-83f7-139518c6147c")
-		(at 104.775 119.0625)
+		(at 142.875 126.20625)
 		(descr "Cherry MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
 		(property "Reference" "SW26"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "d317c82b-dcb4-40fa-9e0e-ed1c2cf45d0c")
+			(uuid "49b63c80-d794-4b58-9eed-f8abd4201860")
 			(effects
 				(font
 					(size 1 1)
@@ -7890,7 +7890,7 @@
 		(property "Value" "Switch"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "4e32a5b9-6fca-4242-9f54-ac3cc6395b25")
+			(uuid "f579a8ac-ff5b-4940-a6cf-42e19c090e4a")
 			(effects
 				(font
 					(size 1 1)
@@ -7902,7 +7902,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "945e4700-9524-48e1-8ef1-5cb2464e0f87")
+			(uuid "737f2b28-798b-415c-b9a4-9f971575b43b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7914,7 +7914,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9dcc0cf7-a44d-472d-9b6d-9d19ee414944")
+			(uuid "ae2d1d59-44fa-41f9-a405-d656b6a0b466")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8196,13 +8196,13 @@
 	(footprint "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "b3e7a7b8-8ddb-4d43-b98c-2ea5af3b66e7")
-		(at 38.1 102.39375)
+		(at 76.2 109.5375)
 		(descr "Cherry MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
-		(property "Reference" "SW23"
+		(property "Reference" "SW19"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "e3abfd35-52ec-4fb7-9e5e-9ee8bd93bc01")
+			(uuid "a7aa4fc7-ff23-413d-bed3-b491f5c7fbc7")
 			(effects
 				(font
 					(size 1 1)
@@ -8213,7 +8213,7 @@
 		(property "Value" "Switch"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "f986f4f0-564b-4b33-8677-896fa020727b")
+			(uuid "b737a82c-16f9-4ccd-9ba7-85081d89cad4")
 			(effects
 				(font
 					(size 1 1)
@@ -8225,7 +8225,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c6b10c22-8a67-4511-a943-944c908a69c5")
+			(uuid "25dc8fb0-25b6-4ae6-bfbb-89f5301372d5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8237,7 +8237,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2b8bf700-dc46-4b09-b38d-5da923082d9f")
+			(uuid "05301dc7-e8f7-4566-8cad-2dc67c6eb1a0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8245,7 +8245,7 @@
 				)
 			)
 		)
-		(path "/9928c395-89a4-4d3e-939d-02e80b11a3a9")
+		(path "/f9d438fe-e15f-4219-a653-c6c42c88bdfd")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr through_hole)
@@ -8487,7 +8487,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 38 "col-4")
+			(net 34 "col-0")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "f27522ec-324a-4c8a-9f40-8aaf3aee0b69")
@@ -8498,7 +8498,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 27 "Net-(D23-A)")
+			(net 23 "Net-(D19-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "eb80d8bd-06bd-4c9a-9483-1a1f86f02f42")
@@ -8519,13 +8519,13 @@
 	(footprint "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "b78d7570-d0f4-4f6c-8910-801169012074")
-		(at 95.25 76.2)
+		(at 133.35 83.34375)
 		(descr "Cherry MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
-		(property "Reference" "SW13"
+		(property "Reference" "SW16"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "34c1ddf5-ee01-45b5-8a7e-785357599353")
+			(uuid "74fad599-f2d1-4e55-8955-8b2652544cbb")
 			(effects
 				(font
 					(size 1 1)
@@ -8536,7 +8536,7 @@
 		(property "Value" "Switch"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "78f51dce-f6ca-43ee-929e-733f4ca60652")
+			(uuid "73a099e3-fdce-4b38-ab9e-0b63f30935a7")
 			(effects
 				(font
 					(size 1 1)
@@ -8548,7 +8548,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "adadfe49-abbd-4e37-a5c8-92399ba79bdd")
+			(uuid "a5a22e42-ce13-4a9c-88e1-ddae91f50b0f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8560,7 +8560,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "17571e9e-91f7-4a36-bab8-1fd5c66a70a2")
+			(uuid "37955cc6-8425-4531-8c0a-8c8ae648e804")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8568,7 +8568,7 @@
 				)
 			)
 		)
-		(path "/db43c1a8-8b1a-4be9-b24c-1ba1f94cf1f8")
+		(path "/d60fbcf6-adad-4a8e-b0ae-5c15ef556a0e")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr through_hole)
@@ -8810,7 +8810,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 34 "col-0")
+			(net 37 "col-3")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "e0c038b3-82b3-4eac-b1f4-e35b23956cf3")
@@ -8821,7 +8821,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 15 "Net-(D13-A)")
+			(net 19 "Net-(D16-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "b6303ec1-6b3e-4a17-8e33-fa5bb8d87534")
@@ -8842,13 +8842,13 @@
 	(footprint "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "c3c6d999-8125-4d74-a27c-eb7ac7f3f4e2")
-		(at 38.1 64.29375)
+		(at 76.2 71.4375)
 		(descr "Cherry MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
-		(property "Reference" "SW11"
+		(property "Reference" "SW7"
 			(at 0 -8 0)
 			(layer "F.SilkS")
-			(uuid "a0923f56-d1bb-43a9-9da4-d204788520f2")
+			(uuid "99366ba1-48f7-48e8-8325-ccade6f23d92")
 			(effects
 				(font
 					(size 1 1)
@@ -8859,7 +8859,7 @@
 		(property "Value" "Switch"
 			(at 0 8 0)
 			(layer "F.Fab")
-			(uuid "0a80efa5-b9b6-46e5-be9f-8e83881b8af2")
+			(uuid "9ab8ca3a-ed25-4449-90de-cb58d403547d")
 			(effects
 				(font
 					(size 1 1)
@@ -8871,7 +8871,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0488df82-c017-4a02-adf5-a3a60fdf9cd5")
+			(uuid "c1d3febd-d442-4d6a-aa0d-df05f71ebbfe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8883,7 +8883,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "db67c92e-671c-40db-8b73-846460e9a91d")
+			(uuid "e78ee2b4-c9bc-43e4-86ac-ef9e4f52c6c4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8891,7 +8891,7 @@
 				)
 			)
 		)
-		(path "/783cd4fd-329d-4ec3-bc65-768b2d5b54cc")
+		(path "/81ce0cd6-53e7-446d-8977-2d2406abaa6c")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr through_hole)
@@ -9133,7 +9133,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 38 "col-4")
+			(net 34 "col-0")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "7225ff69-ef62-4c48-986d-b1b4d14281c8")
@@ -9144,7 +9144,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 13 "Net-(D11-A)")
+			(net 9 "Net-(D7-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "205493a5-635c-4132-bbe8-46a0fa101c70")
@@ -9165,13 +9165,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "057f75a4-40be-4efd-bb9e-0b42166fb0e9")
-		(at 43.18 105.42375 90)
+		(at 81.28 112.5675 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D23"
+		(property "Reference" "D19"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "0cf37afb-d487-47c0-aa40-15b9197bfba1")
+			(uuid "81c793c6-043a-464a-aa77-f8b7c173acb1")
 			(effects
 				(font
 					(size 1 1)
@@ -9183,7 +9183,7 @@
 		(property "Value" "Diode"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "92d98830-0ca0-4fc0-bf33-7b09a7f652a5")
+			(uuid "f779ce6a-b4cd-4dea-8213-e21de5b16dfa")
 			(effects
 				(font
 					(size 1 1)
@@ -9197,7 +9197,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2e081dde-0c56-41a5-93d1-9853ed13d046")
+			(uuid "31db8617-d877-4d7d-b479-7660345f685a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9211,7 +9211,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "72a7775b-f334-4ca4-a676-6490c6533413")
+			(uuid "46b60b65-9c3d-4aaf-8be8-197f4fd36ab9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9249,7 +9249,7 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/1c62635d-1b6d-4c04-9f60-104c0867d2d4")
+		(path "/c0d9b88b-9e67-4407-a796-bf24b6e1b0d5")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr smd)
@@ -9460,7 +9460,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 27 "Net-(D23-A)")
+			(net 23 "Net-(D19-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "7c5c0cf5-6f43-49cb-a2b6-22488cb84239")
@@ -9481,13 +9481,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "092ddd01-21fc-4af9-aa9a-a4a605895a09")
-		(at 138.43 83.9925 90)
+		(at 176.53 91.13625 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D16"
+		(property "Reference" "D18"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "01a4b71e-9e8c-4e2d-83d8-3821f5cd3f49")
+			(uuid "cf33bcf0-cb27-4d8b-a28c-1fcd750bfa7c")
 			(effects
 				(font
 					(size 1 1)
@@ -9499,7 +9499,7 @@
 		(property "Value" "Diode"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "f3a26525-9c75-4b5f-8a0d-0bacc4f8fe44")
+			(uuid "69426237-0cf4-41b7-bb8a-cee0dfcd3767")
 			(effects
 				(font
 					(size 1 1)
@@ -9513,7 +9513,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "04422dba-9364-4e60-8f58-2119eb548adb")
+			(uuid "97eddde4-4112-4cc8-b19b-6b090c12b9ab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9527,7 +9527,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3cc9233c-23b1-446b-9942-a5012d025f48")
+			(uuid "c8b77588-7121-4f4b-9404-3d51b22f102f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9565,7 +9565,7 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/1a5e0053-4d12-45b0-93d8-21db5e88b988")
+		(path "/d6f6d587-7432-41a4-b6a4-508a0e10a9c9")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr smd)
@@ -9776,7 +9776,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 19 "Net-(D16-A)")
+			(net 21 "Net-(D18-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "5adadda1-abe0-4fa1-927d-e7eb62c2586b")
@@ -9797,13 +9797,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "0a89acd1-2e57-4b53-984f-ac650d33c725")
-		(at 100.33 98.28 90)
+		(at 138.43 105.42375 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D19"
+		(property "Reference" "D22"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "72e12e8c-3818-4969-a47c-48f7abc5a200")
+			(uuid "928b20a1-a610-42a9-a9eb-1fd0f4297706")
 			(effects
 				(font
 					(size 1 1)
@@ -9815,7 +9815,7 @@
 		(property "Value" "Diode"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "bf91b18a-26a6-45c8-a5e5-eebecee393c1")
+			(uuid "76040b6b-0944-4368-9b5a-ea2b7ba1d915")
 			(effects
 				(font
 					(size 1 1)
@@ -9829,7 +9829,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e61f7de1-1ae4-4bc3-ba81-81ad661e4c71")
+			(uuid "ddcbe274-bd07-4f63-bb10-74ec7de28e34")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9843,7 +9843,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "af192b5e-b515-4731-8766-bc15cea59768")
+			(uuid "50eeb4f1-ad2d-4460-8c7c-42221607e02f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9881,7 +9881,7 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/c0d9b88b-9e67-4407-a796-bf24b6e1b0d5")
+		(path "/543c6f86-dabb-4a45-80a0-6258bc326155")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr smd)
@@ -10092,7 +10092,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 23 "Net-(D19-A)")
+			(net 26 "Net-(D22-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "5949a303-b263-4a4c-b62e-3f389bbf9553")
@@ -10113,13 +10113,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "168bf671-f2ab-41c9-89a5-2b9ad4e210cb")
-		(at 100.33 60.18 90)
+		(at 138.43 67.32375 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D7"
+		(property "Reference" "D10"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "f00394ae-ff05-4196-a996-13c37c55aa9e")
+			(uuid "d8523b20-2d92-45b9-997b-778b3b95a5eb")
 			(effects
 				(font
 					(size 1 1)
@@ -10131,7 +10131,7 @@
 		(property "Value" "Diode"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "ad2375ce-25c8-4eb1-b05d-39fd18abdf67")
+			(uuid "53f43ca2-69f2-42d1-a377-607134f2c3b3")
 			(effects
 				(font
 					(size 1 1)
@@ -10145,7 +10145,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f7bacc3f-fc01-477f-8b5c-9e6a1d88be41")
+			(uuid "611e4e6e-2b76-4d11-8203-8ebdf83b3eda")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10159,7 +10159,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "003211a1-eefb-4703-8834-59db855b6b41")
+			(uuid "210eca80-d1fc-4ebf-8c69-2b0a4f4399b5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10197,7 +10197,7 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/8f121766-38f1-4d9b-8a55-9a05429a8d09")
+		(path "/9090316a-4b26-4cea-8375-0990cfb00e03")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr smd)
@@ -10408,7 +10408,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 9 "Net-(D7-A)")
+			(net 12 "Net-(D10-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "fc04597a-c633-48cd-a370-00c358c51e49")
@@ -10429,13 +10429,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "221d756d-2bfe-43a7-bee6-66b364424730")
-		(at 149.252957 131.063748 66.12)
+		(at 187.352957 138.207498 66.12)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D28"
 			(at 0 2 66.12)
 			(layer "B.SilkS")
-			(uuid "514d43dd-991c-4928-b412-ae34d13edb51")
+			(uuid "cf8aa21f-3e45-4c77-851a-85a784014da7")
 			(effects
 				(font
 					(size 1 1)
@@ -10447,7 +10447,7 @@
 		(property "Value" "Diode"
 			(at 0 -2.1 66.12)
 			(layer "B.Fab")
-			(uuid "41ab754e-465a-492b-974d-d44c932a1c0b")
+			(uuid "352e5b61-1f00-4be7-8d37-594b2a6575b9")
 			(effects
 				(font
 					(size 1 1)
@@ -10461,7 +10461,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3d0bd574-68b4-4f8d-a86d-b2d081e2ee1a")
+			(uuid "63dda81d-69a0-4c07-9fb8-42bdb239d5ad")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10475,7 +10475,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f463b0d7-2b15-4239-87c2-d1679c4a772e")
+			(uuid "30045069-71ab-4b99-b9bc-2d8329a89d31")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10745,13 +10745,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "2894510f-a4f5-4868-aa8a-5e5d00683a47")
-		(at 43.18 86.37375 90)
+		(at 81.28 93.5175 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D17"
+		(property "Reference" "D13"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "10a37339-2f42-479b-910e-eb91b53373b0")
+			(uuid "ebb27746-e58a-4177-ad52-d403d6b48b3b")
 			(effects
 				(font
 					(size 1 1)
@@ -10763,7 +10763,7 @@
 		(property "Value" "Diode"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "8bae20b9-f743-4fa6-83c6-4e68fc953dd3")
+			(uuid "c76bb6c8-3f7c-4a5d-8f37-76a10b24f768")
 			(effects
 				(font
 					(size 1 1)
@@ -10777,7 +10777,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ee6960dd-19d9-4ee5-8825-081e560b47ce")
+			(uuid "96812351-f012-4e84-9e8d-1eb8e3b0198b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10791,7 +10791,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "24b94353-59aa-4afd-96e6-bbb9de64275a")
+			(uuid "8630e29c-be0a-43d8-85a6-abce7d17a47f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10829,7 +10829,7 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/f7e4c43c-002d-49fc-8d25-d4556a842819")
+		(path "/a7362017-59c6-4506-bd77-250f94a7a71f")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr smd)
@@ -11040,7 +11040,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 20 "Net-(D17-A)")
+			(net 15 "Net-(D13-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "265f242c-8616-486b-a873-9f7339836862")
@@ -11061,13 +11061,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "2e15c7c1-f2eb-4899-869b-9b4c91a97972")
-		(at 89.855 124.1525 -78.06)
+		(at 127.955 131.29625 101.94)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D25"
 			(at 0 2.000001 101.94)
 			(layer "B.SilkS")
-			(uuid "620ef29c-fb43-4d28-810f-0c55ae39d7c4")
+			(uuid "5e6fa879-0248-4589-bb70-91fca7fa61e1")
 			(effects
 				(font
 					(size 1 1)
@@ -11079,7 +11079,7 @@
 		(property "Value" "Diode"
 			(at 0 -2.1 101.94)
 			(layer "B.Fab")
-			(uuid "f091817b-a61f-492b-8ffe-b38e783eb1ac")
+			(uuid "485f0f7d-9376-4a26-9d0e-99cdaf9f90fd")
 			(effects
 				(font
 					(size 1 1)
@@ -11089,11 +11089,11 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 101.94)
+			(at 0 0 281.94)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8651f16b-6135-40ae-8c6a-aa11894ed269")
+			(uuid "18481adb-3626-4d0b-a5ac-9db6dad4ec1a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11103,11 +11103,11 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 0 0 101.94)
+			(at 0 0 281.94)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e62e7ad1-488e-43fe-901e-b8049a4ecd7d")
+			(uuid "dc4cc7d3-4677-409d-b929-cd05d59c3447")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11117,7 +11117,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 101.94)
+			(at 0 0 281.94)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -11131,7 +11131,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 101.94)
+			(at 0 0 281.94)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -11150,14 +11150,14 @@
 		(sheetfile "lunakbd.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -2.36 1)
-			(end 1.65 1)
+			(start -2.36 -1)
+			(end 1.65 -1)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "635c16aa-c5d7-489a-84bf-3bd5727b19a2")
+			(uuid "9893d5d1-2f58-485c-a889-ca4262c9dfe8")
 		)
 		(fp_line
 			(start -2.36 1)
@@ -11170,44 +11170,14 @@
 			(uuid "dc44e24a-8c2f-4626-ad60-a22a14054fb8")
 		)
 		(fp_line
-			(start -2.36 -1)
-			(end 1.65 -1)
+			(start -2.36 1)
+			(end 1.65 1)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "9893d5d1-2f58-485c-a889-ca4262c9dfe8")
-		)
-		(fp_line
-			(start -2.35 1.15)
-			(end 2.35 1.15)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "1a89aaf5-b4db-48ef-ad51-caa4a221ef9e")
-		)
-		(fp_line
-			(start -2.35 1.15)
-			(end -2.35 -1.15)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "eeb3c11c-6043-46c0-a4f8-4862bafad1cf")
-		)
-		(fp_line
-			(start 2.35 1.15)
-			(end 2.35 -1.15)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "dfab2ca2-4dc2-41d1-81bb-325d52514026")
+			(uuid "635c16aa-c5d7-489a-84bf-3bd5727b19a2")
 		)
 		(fp_line
 			(start 2.35 -1.15)
@@ -11220,54 +11190,84 @@
 			(uuid "f62eead9-d626-47cd-aabc-57c39f2324f3")
 		)
 		(fp_line
-			(start -1.4 0.9)
-			(end 1.4 0.9)
+			(start 2.35 1.15)
+			(end 2.35 -1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "dfab2ca2-4dc2-41d1-81bb-325d52514026")
+		)
+		(fp_line
+			(start -2.35 1.15)
+			(end -2.35 -1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "eeb3c11c-6043-46c0-a4f8-4862bafad1cf")
+		)
+		(fp_line
+			(start -2.35 1.15)
+			(end 2.35 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "1a89aaf5-b4db-48ef-ad51-caa4a221ef9e")
+		)
+		(fp_line
+			(start 1.4 -0.9)
+			(end -1.4 -0.9)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "02f63960-7ba9-4616-90ce-04e7c6ef60e1")
+			(uuid "c4ba71bf-efcd-44eb-b6d9-bc3bec13d77c")
 		)
 		(fp_line
-			(start 1.4 0.9)
-			(end 1.4 -0.9)
+			(start -1.4 -0.9)
+			(end -1.4 0.9)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "13a33dab-46dc-4270-aeb0-c5dcde529a45")
+			(uuid "215c0439-ee04-458a-990d-f5ef238e5ba8")
 		)
 		(fp_line
-			(start 0.25 0.4)
-			(end 0.25 -0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "596b2f1f-9029-4623-ad4e-059eaa9cb838")
-		)
-		(fp_line
-			(start -0.75 -0.000001)
+			(start 0.25 -0.4)
 			(end -0.35 0)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "345348c0-b516-4a53-abc8-38f76ad6d7bd")
+			(uuid "61c5679f-f88a-4ee6-839a-8ac8986e1ec4")
 		)
 		(fp_line
-			(start -0.35 0)
-			(end -0.35 0.55)
+			(start 0.25 0)
+			(end 0.75 0.000002)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "e79acdca-eca6-4f39-9408-2a34450e09f0")
+			(uuid "283fc604-4a7e-44ac-bf22-f535d1dbb102")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end -0.35 -0.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "d81e30ad-2727-4b8f-912e-35747d6dbf7a")
 		)
 		(fp_line
 			(start -0.35 0)
@@ -11281,53 +11281,53 @@
 		)
 		(fp_line
 			(start -0.35 0)
-			(end -0.35 -0.55)
+			(end -0.35 0.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "d81e30ad-2727-4b8f-912e-35747d6dbf7a")
+			(uuid "e79acdca-eca6-4f39-9408-2a34450e09f0")
 		)
 		(fp_line
-			(start 0.25 0)
-			(end 0.75 0.000001)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "283fc604-4a7e-44ac-bf22-f535d1dbb102")
-		)
-		(fp_line
-			(start 0.25 -0.4)
+			(start -0.75 -0.000002)
 			(end -0.35 0)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "61c5679f-f88a-4ee6-839a-8ac8986e1ec4")
+			(uuid "345348c0-b516-4a53-abc8-38f76ad6d7bd")
 		)
 		(fp_line
-			(start -1.4 -0.9)
-			(end -1.4 0.9)
+			(start 0.25 0.4)
+			(end 0.25 -0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "215c0439-ee04-458a-990d-f5ef238e5ba8")
+			(uuid "596b2f1f-9029-4623-ad4e-059eaa9cb838")
 		)
 		(fp_line
-			(start 1.4 -0.9)
-			(end -1.4 -0.9)
+			(start 1.4 0.9)
+			(end 1.4 -0.9)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "c4ba71bf-efcd-44eb-b6d9-bc3bec13d77c")
+			(uuid "13a33dab-46dc-4270-aeb0-c5dcde529a45")
+		)
+		(fp_line
+			(start -1.4 0.9)
+			(end 1.4 0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "02f63960-7ba9-4616-90ce-04e7c6ef60e1")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.000001 101.94)
@@ -11342,7 +11342,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.65 0 281.94)
+			(at -1.65 0 101.94)
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
@@ -11352,7 +11352,7 @@
 			(uuid "a63cbb7d-d717-4fe8-8ac8-1970eaf19673")
 		)
 		(pad "2" smd roundrect
-			(at 1.65 0 281.94)
+			(at 1.65 0 101.94)
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
@@ -11377,13 +11377,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "3a73c54f-451c-46d7-a2b3-b33d39aa3d2b")
-		(at 81.28 62.56125 90)
+		(at 119.38 69.705 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D8"
+		(property "Reference" "D9"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "84aeed19-a189-4505-80da-3c49c5f51665")
+			(uuid "b05c0d1e-5c94-4f4e-a850-834be0a1a929")
 			(effects
 				(font
 					(size 1 1)
@@ -11395,7 +11395,7 @@
 		(property "Value" "Diode"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "e73ca2c3-2c4b-47ee-a114-0d2da3d137ed")
+			(uuid "891aea47-22bc-4a05-ae18-2f43b697bf8e")
 			(effects
 				(font
 					(size 1 1)
@@ -11409,7 +11409,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3a6b1ee5-ce1e-4285-a182-edcaba50cd94")
+			(uuid "6666f91c-5260-4594-ab30-6efb6f4787a6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11423,7 +11423,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c77679c9-69ea-47d1-9ffe-aff68c2d8f49")
+			(uuid "f8067626-a907-48cc-95ac-0d61cbe58086")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11461,7 +11461,7 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/1504fdf4-9943-4104-bb71-a7161a5e5b19")
+		(path "/31a6db85-afc1-4566-b5fa-3e16fe24559b")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr smd)
@@ -11672,7 +11672,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 10 "Net-(D8-A)")
+			(net 11 "Net-(D9-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "42e70578-6f82-4dcd-92b9-f4680873cc68")
@@ -11693,13 +11693,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "42c2613c-d066-4250-b2b4-2bc16e02fc6e")
-		(at 119.38 81.61125 90)
+		(at 157.48 88.755 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D15"
+		(property "Reference" "D17"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "9a7d9a41-a670-4640-b565-76a8ed3f3f97")
+			(uuid "0ac212f3-64fd-4c18-9536-330d4b65f6b6")
 			(effects
 				(font
 					(size 1 1)
@@ -11711,7 +11711,7 @@
 		(property "Value" "Diode"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "d092ed14-1541-480c-a877-534f55d06ea0")
+			(uuid "8989be05-ee94-4c17-bf38-8e8803df8000")
 			(effects
 				(font
 					(size 1 1)
@@ -11725,7 +11725,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e1d53bae-4d3d-4f01-a0a6-7500317a8ab8")
+			(uuid "eb4f1819-dc6a-4ff0-913b-11aa381ac155")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11739,7 +11739,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "db16be04-d9a4-4f37-a140-2c299261cbdb")
+			(uuid "35129191-752e-4cf0-8a0d-628a98327925")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11777,7 +11777,7 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/8e93b655-9990-4f80-89da-69d9ecb5d34c")
+		(path "/f7e4c43c-002d-49fc-8d25-d4556a842819")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr smd)
@@ -11988,7 +11988,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 18 "Net-(D15-A)")
+			(net 20 "Net-(D17-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "f87e67e3-937e-4ceb-b7a1-ebb2a0f0771b")
@@ -12009,13 +12009,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "4a2250da-cef9-4f2c-b1bf-50d0323a7f46")
-		(at 62.23 67.32375 90)
+		(at 100.33 74.4675 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D12"
+		(property "Reference" "D8"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "93c337a4-0a46-4a35-bffb-af05bf3ec7d7")
+			(uuid "1556cfa8-9192-4a71-8be6-44a8704cd2e7")
 			(effects
 				(font
 					(size 1 1)
@@ -12027,7 +12027,7 @@
 		(property "Value" "Diode"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "2db6955b-6d0a-43c5-b48e-7f7faf0b2234")
+			(uuid "4b7f76e8-26f6-4a00-9ce5-3710b1ef9798")
 			(effects
 				(font
 					(size 1 1)
@@ -12041,7 +12041,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "72ee246e-9377-4305-976e-b6494e766665")
+			(uuid "4d4672e8-4ec1-4f03-a47f-e4fd6031279d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12055,7 +12055,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d6cf9b64-f994-4803-abdd-0d99760f84d6")
+			(uuid "18d54f84-4663-49e9-bf69-4e304c037121")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12093,7 +12093,7 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/e9415f12-c61c-4b16-83ba-85ae123d42c7")
+		(path "/1504fdf4-9943-4104-bb71-a7161a5e5b19")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr smd)
@@ -12304,7 +12304,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 14 "Net-(D12-A)")
+			(net 10 "Net-(D8-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "913bc8d6-7fe9-4d96-8fff-61eda4386085")
@@ -12325,13 +12325,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "6f5d38d4-1a9d-46bf-9503-eca94b380416")
-		(at 62.23 105.42375 90)
+		(at 100.33 112.5675 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D24"
+		(property "Reference" "D20"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "87d5837b-69a9-40de-8178-98837fac8060")
+			(uuid "2dac2e66-35aa-491b-a393-9c90b4a2097d")
 			(effects
 				(font
 					(size 1 1)
@@ -12343,7 +12343,7 @@
 		(property "Value" "Diode"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "5c438724-f2db-449f-83ff-c3b437859600")
+			(uuid "95ec13cc-c0eb-4658-9f17-c446eac76be0")
 			(effects
 				(font
 					(size 1 1)
@@ -12357,7 +12357,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6e0b8570-de56-4f74-b5e5-5ccf405b3429")
+			(uuid "e43d0a9a-5510-46d9-b396-449f5ce06d35")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12371,7 +12371,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7b332377-3fb6-4ef0-8d7b-d491b9667b6f")
+			(uuid "e950880a-9d52-42f6-9bf3-7055e920cfa6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12409,7 +12409,7 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/a98de67f-105b-468d-af5a-cb5792d5ff6d")
+		(path "/81416e93-158c-437b-b77e-d92618d9fa64")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr smd)
@@ -12620,7 +12620,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 28 "Net-(D24-A)")
+			(net 24 "Net-(D20-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "350d2b02-2753-4a4d-b899-4059c996e13a")
@@ -12641,13 +12641,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "7ca38f2d-4d67-4fdc-bd0c-6e08b8ca112e")
-		(at 81.28 43.51125 90)
+		(at 119.38 50.655 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "57444158-04cd-4059-9318-a6b6951ef7f5")
+			(uuid "50437cda-c84a-46db-89d6-0e55983e650e")
 			(effects
 				(font
 					(size 1 1)
@@ -12659,7 +12659,7 @@
 		(property "Value" "Diode"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "51d78c09-30bf-41a2-b4eb-7d39a796b54c")
+			(uuid "8d467efe-26ed-4e2d-927f-c43867dc5bf8")
 			(effects
 				(font
 					(size 1 1)
@@ -12673,7 +12673,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "23bd8383-4d05-4b98-9404-ce17d55d2b38")
+			(uuid "91fef37d-db8f-43f4-8d1c-aed3d1e3d344")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12687,7 +12687,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ee0ad701-64de-46d8-b9d3-6ce744bc1278")
+			(uuid "1e4644d9-b7e3-4f53-9d33-0ffeeebaeac8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12725,7 +12725,7 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/64e2ef26-c272-41f1-96e2-3708b0fa44a2")
+		(path "/084983a7-15bd-4b6a-94c7-e7a6e105aa44")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr smd)
@@ -12936,7 +12936,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 3 "Net-(D2-A)")
+			(net 4 "Net-(D3-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "a0fd0afe-05cf-44b9-b903-c2a73e75e9a7")
@@ -12957,13 +12957,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "87d7ddc0-aa36-4426-a1c7-70498d7850bb")
-		(at 43.18 67.32375 90)
+		(at 81.28 74.4675 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D11"
+		(property "Reference" "D7"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "f126faa0-8049-4a9b-93b1-a7cd29802785")
+			(uuid "c5cc8c30-a63d-4eb2-9fe9-e39070d80271")
 			(effects
 				(font
 					(size 1 1)
@@ -12975,7 +12975,7 @@
 		(property "Value" "Diode"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "dbac34a9-2563-40eb-b1c4-17225a2c43a7")
+			(uuid "fd1d9629-f416-449a-b00e-565b108669d2")
 			(effects
 				(font
 					(size 1 1)
@@ -12989,7 +12989,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2c27b828-12fd-40b0-840e-6f8264dec53a")
+			(uuid "6840c232-174c-4d49-a4fe-77125dc6be71")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13003,7 +13003,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e134b46d-4fc5-48f8-aa30-ef13a33ff85a")
+			(uuid "ed8a160e-e8e3-45e4-bea0-6b666e801eb0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13041,7 +13041,7 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/ae18cfe5-35b5-4180-9c93-bf20578011e0")
+		(path "/8f121766-38f1-4d9b-8a55-9a05429a8d09")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr smd)
@@ -13252,7 +13252,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 13 "Net-(D11-A)")
+			(net 9 "Net-(D7-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "0a7af831-7764-4489-9b5e-e07444ad0a40")
@@ -13273,13 +13273,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "8b8e848f-af0e-466c-aec7-eb3c8e8f0234")
-		(at 119.38 100.66125 90)
+		(at 157.48 107.805 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D21"
+		(property "Reference" "D23"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "590a83bc-d10f-4598-8a4a-51149fb899cc")
+			(uuid "c23a9eeb-40b9-4a5a-8d83-83dfcbbec8f3")
 			(effects
 				(font
 					(size 1 1)
@@ -13291,7 +13291,7 @@
 		(property "Value" "Diode"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "aa709f01-bf84-4e8b-b58d-9678bd503937")
+			(uuid "2711d23d-65fc-4340-932b-1139afaf3f1f")
 			(effects
 				(font
 					(size 1 1)
@@ -13305,7 +13305,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "16d4530b-3c80-4968-b705-9f6f233941c8")
+			(uuid "776e52e4-f6d4-457c-a010-3e08a59b3012")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13319,7 +13319,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "42cdcc71-c7c2-442f-934b-a65c2ec224d1")
+			(uuid "c37a51a9-1c16-4b9f-85e8-c52906415e66")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13357,7 +13357,7 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/9954393f-3725-468f-9c37-ebd71b28742f")
+		(path "/1c62635d-1b6d-4c04-9f60-104c0867d2d4")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr smd)
@@ -13568,7 +13568,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 25 "Net-(D21-A)")
+			(net 27 "Net-(D23-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "8bd18598-be1c-4848-a6ab-1254ca1521e8")
@@ -13589,13 +13589,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "8c611744-d5ac-4b13-b56a-95f34eaf19b4")
-		(at 138.43 103.0425 90)
+		(at 176.53 110.18625 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D22"
+		(property "Reference" "D24"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "f5933558-7b42-4a46-94d1-be3f4135101b")
+			(uuid "8b54bc1b-2275-466e-b41f-0990aac08345")
 			(effects
 				(font
 					(size 1 1)
@@ -13607,7 +13607,7 @@
 		(property "Value" "Diode"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "e7c769d3-efba-446b-8ca8-dabd6bbb405c")
+			(uuid "aaf58e6b-390d-4d55-8f45-c5acf80d6d12")
 			(effects
 				(font
 					(size 1 1)
@@ -13621,7 +13621,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6b3b8589-533f-4402-943e-3b36696d9846")
+			(uuid "98ebe06e-e925-4daf-b309-1b67291fb15b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13635,7 +13635,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8e071ae1-f919-4e62-8fca-5d54a7460e3a")
+			(uuid "655b7cf6-258b-4881-ba6b-f27284b98bb9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13673,7 +13673,7 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/543c6f86-dabb-4a45-80a0-6258bc326155")
+		(path "/a98de67f-105b-468d-af5a-cb5792d5ff6d")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr smd)
@@ -13884,7 +13884,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 26 "Net-(D22-A)")
+			(net 28 "Net-(D24-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "022ce0dc-d6d7-4844-ba7c-6dc326e8fcc2")
@@ -13905,13 +13905,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "925c9bf0-d6f4-4836-a4a8-f9552b700966")
-		(at 129.882466 125.259315 78.06)
+		(at 167.982466 132.403065 78.06)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D27"
 			(at 0 2.000001 78.06)
 			(layer "B.SilkS")
-			(uuid "c56045aa-a729-45ca-8a4d-eaaec0a210ce")
+			(uuid "f37d0ee2-762d-4321-9366-7d36bf2a4040")
 			(effects
 				(font
 					(size 1 1)
@@ -13923,7 +13923,7 @@
 		(property "Value" "Diode"
 			(at 0 -2.1 78.06)
 			(layer "B.Fab")
-			(uuid "cd5c6d2e-6938-43ad-8c1c-cb94cfc7f748")
+			(uuid "9c61f95f-24ca-43a6-aa37-129811486598")
 			(effects
 				(font
 					(size 1 1)
@@ -13937,7 +13937,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7dcdffa0-eedd-4c59-9cc8-e370190091a9")
+			(uuid "5ddbecc4-54ee-4448-9392-65fcec94a4dd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13951,7 +13951,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "dd0a09f1-b000-4209-8b7d-838d4b413d0c")
+			(uuid "87cad4a9-b93e-4e4a-a198-3262b19ecf64")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14221,13 +14221,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "a4dd5899-7e49-48e3-8796-79cac9a5b11a")
-		(at 81.28 100.66125 90)
+		(at 119.38 107.805 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D20"
+		(property "Reference" "D21"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "e8ef79c8-b7ae-4c82-870c-1710240c2819")
+			(uuid "a42f60c1-fa4a-45b8-a124-9853cfb25258")
 			(effects
 				(font
 					(size 1 1)
@@ -14239,7 +14239,7 @@
 		(property "Value" "Diode"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "0244ca18-f935-4d6c-91c1-743f2c5c5189")
+			(uuid "b8d6b364-b310-4d18-8b64-ffc069b06b82")
 			(effects
 				(font
 					(size 1 1)
@@ -14253,7 +14253,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a13fb6cd-7f57-4d3e-9f2c-c48811e5d811")
+			(uuid "b6944c57-a2b8-4486-b365-ea572a25a4e0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14267,7 +14267,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e7c4613a-1746-4e47-95be-5f2b29def476")
+			(uuid "53e4e564-440b-4f1a-8d4b-995843833bd9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14305,7 +14305,7 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/81416e93-158c-437b-b77e-d92618d9fa64")
+		(path "/9954393f-3725-468f-9c37-ebd71b28742f")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr smd)
@@ -14516,7 +14516,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 24 "Net-(D20-A)")
+			(net 25 "Net-(D21-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "9d32ac18-5a48-482e-afaf-e56b2eacc8fc")
@@ -14537,13 +14537,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "a6f1f386-fed5-4bff-b2e0-b246cc549d02")
-		(at 138.43 45.8925 90)
+		(at 176.53 53.03625 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D4"
+		(property "Reference" "D6"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "93d29a73-eb4d-4de8-8a7a-d031bd48f3fe")
+			(uuid "ff24c148-b0a0-4d3e-9531-3d799d58cc26")
 			(effects
 				(font
 					(size 1 1)
@@ -14555,7 +14555,7 @@
 		(property "Value" "Diode"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "d4d49dad-8f90-4baa-87f8-ff20fe154d1a")
+			(uuid "4ba3da30-420d-4996-807d-4d4a3bf7ef37")
 			(effects
 				(font
 					(size 1 1)
@@ -14569,7 +14569,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "41a9cd21-786f-41db-b7e6-9b2c797037c2")
+			(uuid "ee41a591-246c-47cd-8c4e-bcab3d95433e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14583,7 +14583,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3e9689e0-6add-4d8a-9d93-bcf0bc144a93")
+			(uuid "6ced6c75-b196-4afa-98e1-e3b8f56e4bdb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14621,7 +14621,7 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/04e4a910-446e-4c24-beb6-815a178aaeee")
+		(path "/9658a8dc-7b3c-4b80-b652-d1710d00fda2")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr smd)
@@ -14832,7 +14832,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 5 "Net-(D4-A)")
+			(net 7 "Net-(D6-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "6942bd18-e43c-4631-a020-5030d06dd144")
@@ -14853,13 +14853,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "af91b69b-0b0c-4fe7-8531-a2ec60cda7f2")
-		(at 62.23 48.27375 90)
+		(at 100.33 55.4175 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D6"
+		(property "Reference" "D2"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "2aba26ec-14a6-4c90-a735-4157c1cc19c7")
+			(uuid "bcc79f7f-59c3-4470-b604-eff871ab38ea")
 			(effects
 				(font
 					(size 1 1)
@@ -14871,7 +14871,7 @@
 		(property "Value" "Diode"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "17a5bc54-5a49-4b80-8f8d-74ea4658327b")
+			(uuid "abb74f48-bf4c-4459-a37d-0b162fc020aa")
 			(effects
 				(font
 					(size 1 1)
@@ -14885,7 +14885,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0fa41704-9fa8-4ab7-9aae-894c21d8a107")
+			(uuid "5b44fe81-68aa-4d78-8306-6780d3ca3bdd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14899,7 +14899,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "809fc1d7-25f9-4275-a408-de02dfe53005")
+			(uuid "11795ea3-7154-4f9a-a856-5db1dc32e609")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14937,7 +14937,7 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/9658a8dc-7b3c-4b80-b652-d1710d00fda2")
+		(path "/64e2ef26-c272-41f1-96e2-3708b0fa44a2")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr smd)
@@ -15148,7 +15148,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 7 "Net-(D6-A)")
+			(net 3 "Net-(D2-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "354fd1af-1eb7-4c83-a268-aa82a2c4dd9f")
@@ -15169,13 +15169,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "c33838ef-fd90-48ea-871e-c36021ef5198")
-		(at 100.33 41.13 90)
+		(at 138.43 48.27375 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D1"
+		(property "Reference" "D4"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "e2e2b309-9dc5-4202-8f04-4d9a236fc7ba")
+			(uuid "a9883cfe-6028-48e2-8c13-808d7a20298e")
 			(effects
 				(font
 					(size 1 1)
@@ -15187,7 +15187,7 @@
 		(property "Value" "Diode"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "b09a35c4-e68c-48c2-8bdb-92307fbc4f0f")
+			(uuid "ce92e129-45b5-44d3-9763-a4104f211b21")
 			(effects
 				(font
 					(size 1 1)
@@ -15201,7 +15201,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "aa7e277b-ae55-4303-bf40-a73d36ef9d88")
+			(uuid "024cd7b6-f13c-4768-852f-369cfb77dd1c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15215,7 +15215,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a0902268-4529-4e96-af51-e9e7c11f947a")
+			(uuid "b1384e4a-db8b-45dc-a877-da28937824a5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15253,7 +15253,7 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/05461b7a-483b-401e-b988-75c16a2cbb19")
+		(path "/04e4a910-446e-4c24-beb6-815a178aaeee")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr smd)
@@ -15464,7 +15464,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 2 "Net-(D1-A)")
+			(net 5 "Net-(D4-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "390cb6f8-1725-4bc2-95cc-1a8305269361")
@@ -15485,13 +15485,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "c519504e-ada6-47be-9c97-dbda36bca3e5")
-		(at 43.18 48.27375 90)
+		(at 81.28 55.4175 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D5"
+		(property "Reference" "D1"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "5753ac95-0257-4d81-94bd-64bdd1ec3862")
+			(uuid "12363bf4-2a81-4a73-b7eb-20b37c1aeeb9")
 			(effects
 				(font
 					(size 1 1)
@@ -15503,7 +15503,7 @@
 		(property "Value" "Diode"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "1b195a85-4004-49d6-9737-18822be23150")
+			(uuid "ba6fa37f-64f3-47ac-86a5-bc01b07f3ef9")
 			(effects
 				(font
 					(size 1 1)
@@ -15517,7 +15517,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "4b051883-10d2-4e1b-b53d-f2775b0ef594")
+			(uuid "b78d35a0-f829-4b93-83a2-8eca5fbdfb3b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15531,7 +15531,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "daf3018b-0c3f-46f6-b2ab-a3427d35393a")
+			(uuid "597bb647-669e-44d3-8870-5b8ca3d6ec35")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15569,7 +15569,7 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/9390e60f-f9d9-4139-a53f-b310671ddb60")
+		(path "/05461b7a-483b-401e-b988-75c16a2cbb19")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr smd)
@@ -15780,7 +15780,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 6 "Net-(D5-A)")
+			(net 2 "Net-(D1-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "d71520d0-0d64-40b6-913f-a546ba3226e5")
@@ -15801,13 +15801,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "c8ddecad-0dac-4c4c-82b3-d4e96318e4cc")
-		(at 62.23 86.37375 90)
+		(at 100.33 93.5175 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D18"
+		(property "Reference" "D14"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "93e54e03-bd13-496b-bf29-1e51c3224fbc")
+			(uuid "0c7f50b7-9d90-41c3-97b4-a4ceba60ddd3")
 			(effects
 				(font
 					(size 1 1)
@@ -15819,7 +15819,7 @@
 		(property "Value" "Diode"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "e473e8b1-1b5f-492b-a238-256192d880df")
+			(uuid "7129359f-ddcd-43fd-ba30-2257daffc36f")
 			(effects
 				(font
 					(size 1 1)
@@ -15833,7 +15833,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3e000520-cc60-4090-9cd5-bdf1c8163862")
+			(uuid "4963f43c-c825-421f-a872-6b6f80df698c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15847,7 +15847,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9d0affef-2c3b-4fbc-a0b0-868263f0e711")
+			(uuid "696365a1-e048-44f2-aee6-1163c9624484")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15885,7 +15885,7 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/d6f6d587-7432-41a4-b6a4-508a0e10a9c9")
+		(path "/ed191aa6-a1dc-4514-82b3-50abde9d435a")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr smd)
@@ -16096,7 +16096,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 21 "Net-(D18-A)")
+			(net 17 "Net-(D14-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "f72bffea-871a-4a59-857a-15a979734f8d")
@@ -16117,13 +16117,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "d0ad45ed-32ff-4897-911f-25f0c903ac7a")
-		(at 138.43 64.9425 90)
+		(at 176.53 72.08625 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D10"
+		(property "Reference" "D12"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "d229a165-4802-4924-aac2-f8f16a1ebd21")
+			(uuid "d7919c32-8e08-40e7-b08b-7fe865252d79")
 			(effects
 				(font
 					(size 1 1)
@@ -16135,7 +16135,7 @@
 		(property "Value" "Diode"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "6eae4e43-dd5d-4756-9b84-aa202f45c685")
+			(uuid "ebd9bada-6a69-46bc-9674-c78dd26e5987")
 			(effects
 				(font
 					(size 1 1)
@@ -16149,7 +16149,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b96b68e4-431f-403d-9961-0c799bbb0a75")
+			(uuid "5972e035-9225-4fe0-b223-a561120a50fc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16163,7 +16163,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "565189c7-61a6-4f02-a48a-4102d2cfb445")
+			(uuid "2efd9cac-3fdb-4302-ac30-96a8c958c3ce")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16201,7 +16201,7 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/9090316a-4b26-4cea-8375-0990cfb00e03")
+		(path "/e9415f12-c61c-4b16-83ba-85ae123d42c7")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr smd)
@@ -16412,7 +16412,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 12 "Net-(D10-A)")
+			(net 14 "Net-(D12-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "45187402-fd4e-4034-9e16-a8a418ba13b0")
@@ -16433,13 +16433,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "d1facaf6-b69c-468e-a0d3-9fddc4f01c98")
-		(at 109.855 122.0925 90)
+		(at 147.955 129.23625 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D26"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "4f305d59-c2a3-45a0-960e-a68f1701ebf3")
+			(uuid "9392bccf-5827-4ced-9b76-58dfc404fc59")
 			(effects
 				(font
 					(size 1 1)
@@ -16451,7 +16451,7 @@
 		(property "Value" "Diode"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "e2a2fca5-a8b5-430a-b263-5c929bfd05ab")
+			(uuid "0b2937a9-8860-4529-b06b-88cd80f60b73")
 			(effects
 				(font
 					(size 1 1)
@@ -16465,7 +16465,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b4a85fe0-d2d9-49f9-afd5-40fdd5449259")
+			(uuid "4790cb35-0b28-47b8-91a4-85e706efd534")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16479,7 +16479,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6713a038-bf08-4352-9c70-6b869afecdf8")
+			(uuid "b3d41c24-70c7-45f5-8481-487c8672ff9f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16749,13 +16749,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "d9ae694b-97c8-49ec-b2a1-f5583c134bc2")
-		(at 119.38 62.56125 90)
+		(at 157.48 69.705 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D9"
+		(property "Reference" "D11"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "ba214c15-07a6-4bfb-80ab-8fecb622b381")
+			(uuid "60dd4470-f1c7-41ed-8f30-9233bdb7847b")
 			(effects
 				(font
 					(size 1 1)
@@ -16767,7 +16767,7 @@
 		(property "Value" "Diode"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "3851a745-9d9e-480d-b740-e4c7872c2645")
+			(uuid "ea9f1ed6-22aa-49b3-9821-2fbacde3a0e3")
 			(effects
 				(font
 					(size 1 1)
@@ -16781,7 +16781,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "97f2a49a-6cc1-4a0b-adbb-8446c55155c8")
+			(uuid "0d2f9fe9-85e4-4e09-8574-c244af1bf9b2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16795,7 +16795,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ed64c8f4-777f-4566-9a8f-39423cf7ccf2")
+			(uuid "64d2a529-1991-4c96-bdc0-297669ea1115")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16833,7 +16833,7 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/31a6db85-afc1-4566-b5fa-3e16fe24559b")
+		(path "/ae18cfe5-35b5-4180-9c93-bf20578011e0")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr smd)
@@ -17044,7 +17044,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 11 "Net-(D9-A)")
+			(net 13 "Net-(D11-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "20586315-7616-429c-a669-68abc70e6492")
@@ -17065,13 +17065,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "ed01468e-bcd3-46a1-b30e-c360a50df538")
-		(at 100.33 79.23 90)
+		(at 138.43 86.37375 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D13"
+		(property "Reference" "D16"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "94f6fe74-3e4f-4d1a-a1bb-56f8a64447f5")
+			(uuid "a1b94afd-7107-4fc7-95ab-b6e34f8d6737")
 			(effects
 				(font
 					(size 1 1)
@@ -17083,7 +17083,7 @@
 		(property "Value" "Diode"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "3d6204f4-af96-4942-a284-b9cae5c20501")
+			(uuid "48235353-01b3-41d8-bab3-8976d534efe3")
 			(effects
 				(font
 					(size 1 1)
@@ -17097,7 +17097,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "59331e16-d5a9-4c90-9645-f7f857badded")
+			(uuid "14bd5322-a384-4372-80c8-3a3381b4e1e2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17111,7 +17111,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d0f5cd11-10cd-499f-aacb-5d9f2f5b3e0b")
+			(uuid "30cdb137-7b02-4f54-94d0-9d14437b8e8a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17149,7 +17149,7 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/a7362017-59c6-4506-bd77-250f94a7a71f")
+		(path "/1a5e0053-4d12-45b0-93d8-21db5e88b988")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr smd)
@@ -17360,7 +17360,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 15 "Net-(D13-A)")
+			(net 19 "Net-(D16-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "ea1ec965-8005-40c4-8d6f-3fbcefccfd01")
@@ -17381,13 +17381,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "ee3020fd-e04d-422c-9bd5-049d8f309154")
-		(at 81.28 81.61125 90)
+		(at 119.38 88.755 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D14"
+		(property "Reference" "D15"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "714b75c8-c89c-451d-84e3-bc0910561654")
+			(uuid "cb125aa0-5700-4d24-ac41-60a751de58ce")
 			(effects
 				(font
 					(size 1 1)
@@ -17399,7 +17399,7 @@
 		(property "Value" "Diode"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "3c012401-fa4b-405f-8d92-fe4ef866563c")
+			(uuid "b4292d35-0ef1-4a78-80e3-67ad25d6b02b")
 			(effects
 				(font
 					(size 1 1)
@@ -17413,7 +17413,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "020e2a41-3155-4912-aa61-3b33d8675392")
+			(uuid "4ab952b7-1f3d-4ee5-8ff8-8a3a3a004989")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17427,7 +17427,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "13f8ce9f-f39a-4f1b-93e6-e725eb164c3e")
+			(uuid "fdef98ae-ef33-4bc0-8f96-e673bf8744ca")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17465,7 +17465,7 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/ed191aa6-a1dc-4514-82b3-50abde9d435a")
+		(path "/8e93b655-9990-4f80-89da-69d9ecb5d34c")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr smd)
@@ -17676,7 +17676,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 17 "Net-(D14-A)")
+			(net 18 "Net-(D15-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "072030d2-2d0f-4d0e-8745-24c046c39c31")
@@ -17697,13 +17697,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "f9205f6e-be76-480a-9449-9341f5074ba3")
-		(at 119.38 43.51125 90)
+		(at 157.48 50.655 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D3"
+		(property "Reference" "D5"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "77e5ff88-f0af-45f6-b417-a5bbac905985")
+			(uuid "2154a25c-a651-46c3-9904-96bfa2d81ddd")
 			(effects
 				(font
 					(size 1 1)
@@ -17715,7 +17715,7 @@
 		(property "Value" "Diode"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "2e17f9c9-528d-470a-9eb8-cf9281d9bc8c")
+			(uuid "d0a23414-28dd-48c7-b782-baab755058f8")
 			(effects
 				(font
 					(size 1 1)
@@ -17729,7 +17729,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a95c853f-e4a8-4d91-96fd-841939dc47f1")
+			(uuid "576bd405-f029-4752-8474-887a39ea472d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17743,7 +17743,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c7122550-96a7-4c69-89c4-1e08ddf9a19c")
+			(uuid "6ee08f90-e806-4e28-b64a-fda3f44ff92e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17781,7 +17781,7 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/084983a7-15bd-4b6a-94c7-e7a6e105aa44")
+		(path "/9390e60f-f9d9-4139-a53f-b310671ddb60")
 		(sheetname "/")
 		(sheetfile "lunakbd.kicad_sch")
 		(attr smd)
@@ -17992,7 +17992,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 4 "Net-(D3-A)")
+			(net 6 "Net-(D5-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "6e7cbc1a-8450-41c1-b21f-eabc965c0b42")
@@ -18009,6 +18009,226 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_line
+		(start 85.725 119.0625)
+		(end 95.25 119.063338)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0b89c48a-5989-4f5e-b7e8-a0c0ad00419e")
+	)
+	(gr_line
+		(start 123.825 35.71875)
+		(end 142.875 35.71875)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0b9c05c8-faf6-4024-ae44-b0d1899e78c8")
+	)
+	(gr_line
+		(start 123.825 35.71875)
+		(end 123.825 38.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "13c24b15-25ee-4c6f-8564-7b75834e7aa3")
+	)
+	(gr_line
+		(start 115.63307 139.488408)
+		(end 133.413756 135.728466)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "163d9bbf-9ddb-482c-8737-62577bf975ff")
+	)
+	(gr_line
+		(start 152.4 135.728466)
+		(end 170.9547 139.65555)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1a29b559-bd05-48eb-b486-1730de6db0a5")
+	)
+	(gr_line
+		(start 104.775 119.0625)
+		(end 114.763756 139.672235)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2a6c3650-99fa-49a7-99a6-2f7f9466a627")
+	)
+	(gr_line
+		(start 95.25 119.063338)
+		(end 114.763756 139.672235)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "30081ef9-2c9f-4ef0-8b2b-8b5ba018e68f")
+	)
+	(gr_line
+		(start 114.763756 139.672235)
+		(end 170.9547 139.65555)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "427deeac-9c84-425c-b964-4bb8dda640dd")
+	)
+	(gr_line
+		(start 104.775 42.8625)
+		(end 66.675 42.8625)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "44eecf69-8cdb-4402-82d6-ad52db1727f7")
+	)
+	(gr_line
+		(start 66.675 119.0625)
+		(end 85.725 119.0625)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "808e71a7-b25a-414d-a814-a807b51dd6f1")
+	)
+	(gr_line
+		(start 114.763756 139.672235)
+		(end 102.864369 119.061894)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8470c773-1465-4d66-b1fa-62fb6aeb92de")
+	)
+	(gr_line
+		(start 133.413756 135.728466)
+		(end 152.4 135.728466)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a93cccaa-7965-4069-a44b-2161def36b65")
+	)
+	(gr_line
+		(start 114.763756 139.672235)
+		(end 115.63307 139.488408)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aa7954ba-2322-45ef-b851-46a345e17280")
+	)
+	(gr_line
+		(start 170.9547 139.65555)
+		(end 179.2986 143.35125)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ac3ecdc2-e426-45bf-ae5e-eb4e787652a1")
+	)
+	(gr_line
+		(start 104.775 38.1)
+		(end 104.775 42.8625)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b90b659b-139e-43dc-8a98-1084ca235220")
+	)
+	(gr_line
+		(start 123.825 38.1)
+		(end 104.775 38.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b94646c2-45f1-486c-b2f0-d1e7e4b5ef75")
+	)
+	(gr_line
+		(start 188.360049 147.37715)
+		(end 198.000808 125.60102)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c81bce14-7cac-48bd-b10b-03bd4821657e")
+	)
+	(gr_line
+		(start 161.925 38.1)
+		(end 161.925 40.48125)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ce5147cc-3112-4864-ba60-408150225c28")
+	)
+	(gr_line
+		(start 142.875 35.71875)
+		(end 142.875 38.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d8844ed3-fbec-4820-ad0f-29630572069b")
+	)
+	(gr_line
+		(start 66.675 42.8625)
+		(end 66.675 119.0625)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f54ab7ae-051f-4de7-95de-cbb147b53790")
+	)
+	(gr_line
+		(start 142.875 38.1)
+		(end 161.925 38.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "fd1e499f-077d-4a89-9161-24830029cae4")
+	)
+	(gr_line
+		(start 161.925 40.48125)
+		(end 180.975 40.48125)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "fecd89c6-2e74-4b9d-83e6-47b3dceeb97d")
 	)
 	(embedded_fonts no)
 )
