@@ -2659,16 +2659,16 @@
 		(uuid "083a0e9c-8ae0-4191-93cd-a57b5992073d")
 	)
 	(no_connect
-		(at 101.6 85.09)
-		(uuid "9d4f706a-8b20-4f3f-a48e-c7031b20db0b")
-	)
-	(no_connect
 		(at 68.58 38.1)
 		(uuid "afc35dd5-7391-45b5-8f03-e68f3cbd0efc")
 	)
 	(no_connect
 		(at 102.87 129.54)
 		(uuid "b1a6b40b-1253-4902-85f6-b2bc7ae9f710")
+	)
+	(no_connect
+		(at 101.6 87.63)
+		(uuid "b53e3750-9ebd-4f6c-950f-b83b2396020b")
 	)
 	(wire
 		(pts
@@ -2792,6 +2792,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 85.09) (xy 105.41 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12ae0a30-f521-4eb0-8c84-1f2c582042ea")
+	)
+	(wire
+		(pts
 			(xy 182.88 109.22) (xy 180.34 109.22)
 		)
 		(stroke
@@ -2869,16 +2879,6 @@
 			(type default)
 		)
 		(uuid "2dc59c15-9bd7-489d-b7f1-b817453023c3")
-	)
-	(wire
-		(pts
-			(xy 106.68 92.71) (xy 101.6 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dda5f55-d05e-4b1e-bc52-260e80590adf")
 	)
 	(wire
 		(pts
@@ -3039,16 +3039,6 @@
 			(type default)
 		)
 		(uuid "3dc6461f-6085-4f1e-850c-3f561daf4b02")
-	)
-	(wire
-		(pts
-			(xy 104.14 87.63) (xy 101.6 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ed90f7a-4fee-4bb8-8acb-e30d3fc8d948")
 	)
 	(wire
 		(pts
@@ -3432,16 +3422,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 90.17) (xy 104.14 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83fddc09-e0cc-4bc1-b442-bd6537dd5cf8")
-	)
-	(wire
-		(pts
 			(xy 241.3 76.2) (xy 259.08 76.2)
 		)
 		(stroke
@@ -3812,26 +3792,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 90.17) (xy 104.14 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d37d30d4-30c0-4ae2-a257-b0608f1abb84")
-	)
-	(wire
-		(pts
-			(xy 104.14 85.09) (xy 104.14 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9b0b766-8f6d-4cdd-8678-566013717cec")
-	)
-	(wire
-		(pts
 			(xy 198.12 109.22) (xy 198.12 86.36)
 		)
 		(stroke
@@ -4042,6 +4002,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 92.71) (xy 105.41 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0fab375-6687-43ab-baad-403057046399")
+	)
+	(wire
+		(pts
 			(xy 215.9 33.02) (xy 215.9 40.64)
 		)
 		(stroke
@@ -4089,6 +4059,28 @@
 			(type default)
 		)
 		(uuid "fd6ac08d-5a1a-4877-9570-1cfe077e50ec")
+	)
+	(global_label "data"
+		(shape input)
+		(at 101.6 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "022e04b9-ad63-43bf-970a-1fe1a2126696")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.7579 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "enc-b"
 		(shape input)
@@ -4367,28 +4359,6 @@
 		(uuid "3d2c8d23-86ba-47b1-b8c7-86d33e41de43")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 102.6499 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "data"
-		(shape input)
-		(at 106.68 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3fcddebe-842e-4d3f-9a20-ddf58563adfa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.8379 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5455,72 +5425,6 @@
 			(project "lunakbd"
 				(path "/c1259708-c799-472c-9386-b9d371ea7725"
 					(reference "SW21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 104.14 93.98 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "11bf225c-1416-48e6-874b-f36e96a0f3f2")
-		(property "Reference" "#PWR02"
-			(at 104.14 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 104.14 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c70fd5a-66e6-413d-90dc-e63044cda46b")
-		)
-		(instances
-			(project ""
-				(path "/c1259708-c799-472c-9386-b9d371ea7725"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -6653,7 +6557,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 104.14 85.09 0)
+		(at 105.41 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6662,7 +6566,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b1eb7a3-a29e-44ce-a90d-607437ca3211")
 		(property "Reference" "#PWR01"
-			(at 104.14 88.9 0)
+			(at 101.6 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6671,15 +6575,16 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 104.14 80.01 0)
+			(at 109.22 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 85.09 0)
+			(at 105.41 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6688,7 +6593,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 85.09 0)
+			(at 105.41 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6697,7 +6602,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 104.14 85.09 0)
+			(at 105.41 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6709,7 +6614,7 @@
 			(uuid "8ca45543-0eec-4273-94a1-b7b289432e3d")
 		)
 		(instances
-			(project ""
+			(project "lunakbd"
 				(path "/c1259708-c799-472c-9386-b9d371ea7725"
 					(reference "#PWR01")
 					(unit 1)
@@ -8525,7 +8430,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:ResetSW"
+		(property "Footprint" "kbd:SW_TL3330AF130QG"
 			(at 58.42 81.28 0)
 			(effects
 				(font
@@ -8862,6 +8767,72 @@
 			(project "lunakbd"
 				(path "/c1259708-c799-472c-9386-b9d371ea7725"
 					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 105.41 85.09 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7b8ccaf-95fd-4897-9348-65e9cf745c41")
+		(property "Reference" "#PWR011"
+			(at 111.76 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 105.41 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33624eab-529a-4a56-9550-0ecb5f2f7557")
+		)
+		(instances
+			(project "lunakbd"
+				(path "/c1259708-c799-472c-9386-b9d371ea7725"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -10176,7 +10147,7 @@
 				)
 			)
 		)
-		(property "Value" "TRRS-PJ-320A"
+		(property "Value" "TRRS-PJ-320D"
 			(at 93.98 81.28 0)
 			(effects
 				(font
@@ -10184,7 +10155,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:TRRS-PJ-320A-no-Fmask"
+		(property "Footprint" "Keebio-Parts:TRRS-PJ-320D"
 			(at 96.52 87.63 0)
 			(effects
 				(font
@@ -10433,7 +10404,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
+		(property "Footprint" "PCM_marbastlib-various:SW_MSK12C02-HB"
 			(at 97.79 127 0)
 			(effects
 				(font
