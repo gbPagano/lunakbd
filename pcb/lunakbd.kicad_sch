@@ -4922,7 +4922,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 256.54 111.76 0)
 			(effects
 				(font
@@ -4990,7 +4990,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 185.42 111.76 0)
 			(effects
 				(font
@@ -5060,7 +5060,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Library:D_SOD-123"
 			(at 223.52 48.26 90)
 			(effects
 				(font
@@ -5148,7 +5148,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Library:D_SOD-123"
 			(at 170.18 48.26 90)
 			(effects
 				(font
@@ -5302,7 +5302,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Library:D_SOD-123"
 			(at 205.74 48.26 90)
 			(effects
 				(font
@@ -5388,7 +5388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 203.2 111.76 0)
 			(effects
 				(font
@@ -5458,7 +5458,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Library:D_SOD-123"
 			(at 187.96 71.12 90)
 			(effects
 				(font
@@ -5679,7 +5679,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Library:D_SOD-123"
 			(at 223.52 93.98 90)
 			(effects
 				(font
@@ -5767,7 +5767,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Library:D_SOD-123"
 			(at 241.3 116.84 90)
 			(effects
 				(font
@@ -5853,7 +5853,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 185.42 43.18 0)
 			(effects
 				(font
@@ -5988,7 +5988,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 220.98 111.76 0)
 			(effects
 				(font
@@ -6056,7 +6056,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 256.54 43.18 0)
 			(effects
 				(font
@@ -6126,7 +6126,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Library:D_SOD-123"
 			(at 205.74 71.12 90)
 			(effects
 				(font
@@ -6212,7 +6212,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 185.42 66.04 0)
 			(effects
 				(font
@@ -6357,7 +6357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 238.76 43.18 0)
 			(effects
 				(font
@@ -6427,7 +6427,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Library:D_SOD-123"
 			(at 215.9 139.7 90)
 			(effects
 				(font
@@ -6513,7 +6513,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 220.98 43.18 0)
 			(effects
 				(font
@@ -6648,7 +6648,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 238.76 88.9 0)
 			(effects
 				(font
@@ -6718,7 +6718,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Library:D_SOD-123"
 			(at 223.52 116.84 90)
 			(effects
 				(font
@@ -6806,7 +6806,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Library:D_SOD-123"
 			(at 187.96 48.26 90)
 			(effects
 				(font
@@ -7026,7 +7026,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 213.36 134.62 0)
 			(effects
 				(font
@@ -7094,7 +7094,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 185.42 88.9 0)
 			(effects
 				(font
@@ -7162,7 +7162,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 248.92 134.62 0)
 			(effects
 				(font
@@ -7230,7 +7230,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 256.54 88.9 0)
 			(effects
 				(font
@@ -7298,7 +7298,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 238.76 66.04 0)
 			(effects
 				(font
@@ -7434,7 +7434,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Library:D_SOD-123"
 			(at 269.24 139.7 90)
 			(effects
 				(font
@@ -7522,7 +7522,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Library:D_SOD-123"
 			(at 233.68 139.7 90)
 			(effects
 				(font
@@ -7610,7 +7610,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Library:D_SOD-123"
 			(at 187.96 116.84 90)
 			(effects
 				(font
@@ -7696,7 +7696,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 167.64 66.04 0)
 			(effects
 				(font
@@ -7836,7 +7836,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Library:D_SOD-123"
 			(at 205.74 93.98 90)
 			(effects
 				(font
@@ -7924,7 +7924,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Library:D_SOD-123"
 			(at 170.18 71.12 90)
 			(effects
 				(font
@@ -8012,7 +8012,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Library:D_SOD-123"
 			(at 223.52 71.12 90)
 			(effects
 				(font
@@ -8100,7 +8100,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Library:D_SOD-123"
 			(at 241.3 48.26 90)
 			(effects
 				(font
@@ -8188,7 +8188,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Library:D_SOD-123"
 			(at 259.08 48.26 90)
 			(effects
 				(font
@@ -8274,7 +8274,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 238.76 111.76 0)
 			(effects
 				(font
@@ -8344,7 +8344,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Library:D_SOD-123"
 			(at 205.74 116.84 90)
 			(effects
 				(font
@@ -8430,7 +8430,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:SW_TL3330AF130QG"
+		(property "Footprint" "Library:SW_TL3330AF130QG"
 			(at 58.42 81.28 0)
 			(effects
 				(font
@@ -8574,7 +8574,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 167.64 43.18 0)
 			(effects
 				(font
@@ -8642,7 +8642,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 203.2 88.9 0)
 			(effects
 				(font
@@ -8712,7 +8712,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Library:D_SOD-123"
 			(at 170.18 93.98 90)
 			(effects
 				(font
@@ -8864,7 +8864,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 203.2 66.04 0)
 			(effects
 				(font
@@ -8934,7 +8934,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Library:D_SOD-123"
 			(at 259.08 116.84 90)
 			(effects
 				(font
@@ -9020,7 +9020,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 256.54 66.04 0)
 			(effects
 				(font
@@ -9090,7 +9090,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Library:D_SOD-123"
 			(at 241.3 71.12 90)
 			(effects
 				(font
@@ -9176,7 +9176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u_90deg"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.25u_90deg"
 			(at 266.7 134.62 0)
 			(effects
 				(font
@@ -9246,7 +9246,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Library:D_SOD-123"
 			(at 251.46 139.7 90)
 			(effects
 				(font
@@ -9334,7 +9334,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Library:D_SOD-123"
 			(at 170.18 116.84 90)
 			(effects
 				(font
@@ -9488,7 +9488,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Library:D_SOD-123"
 			(at 177.8 139.7 90)
 			(effects
 				(font
@@ -9574,7 +9574,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 203.2 43.18 0)
 			(effects
 				(font
@@ -9708,7 +9708,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 220.98 88.9 0)
 			(effects
 				(font
@@ -9778,7 +9778,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Library:D_SOD-123"
 			(at 259.08 93.98 90)
 			(effects
 				(font
@@ -9864,7 +9864,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 167.64 88.9 0)
 			(effects
 				(font
@@ -9932,7 +9932,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 220.98 66.04 0)
 			(effects
 				(font
@@ -10069,7 +10069,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Library:D_SOD-123"
 			(at 259.08 71.12 90)
 			(effects
 				(font
@@ -10155,7 +10155,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:TRRS-PJ-320D"
+		(property "Footprint" "Library:TRRS-PJ-320D"
 			(at 96.52 87.63 0)
 			(effects
 				(font
@@ -10231,7 +10231,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Library:D_SOD-123"
 			(at 187.96 93.98 90)
 			(effects
 				(font
@@ -10319,7 +10319,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Library:D_SOD-123"
 			(at 241.3 93.98 90)
 			(effects
 				(font
@@ -10404,7 +10404,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:SW_MSK12C02-HB"
+		(property "Footprint" "Library:SW_MSK12C02-HB"
 			(at 97.79 127 0)
 			(effects
 				(font
@@ -10475,7 +10475,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 167.64 111.76 0)
 			(effects
 				(font
@@ -10543,7 +10543,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
 			(at 231.14 134.62 0)
 			(effects
 				(font
