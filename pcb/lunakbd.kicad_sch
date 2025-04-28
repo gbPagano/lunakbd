@@ -8407,12 +8407,12 @@
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 58.42 86.36 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9e15ce2f-2d65-4239-be57-ff17c60d197e")
 		(property "Reference" "SW30"
 			(at 58.42 78.74 0)
