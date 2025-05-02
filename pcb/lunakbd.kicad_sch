@@ -2837,12 +2837,12 @@
 		(uuid "afc35dd5-7391-45b5-8f03-e68f3cbd0efc")
 	)
 	(no_connect
-		(at 102.87 129.54)
-		(uuid "b1a6b40b-1253-4902-85f6-b2bc7ae9f710")
-	)
-	(no_connect
 		(at 101.6 87.63)
 		(uuid "b53e3750-9ebd-4f6c-950f-b83b2396020b")
+	)
+	(no_connect
+		(at 102.87 129.54)
+		(uuid "c785aa92-6c24-428b-b120-7903e3ca4830")
 	)
 	(wire
 		(pts
@@ -5310,7 +5310,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "lunalib:SW_Hotswap_Kailh_MX_1.00u"
 			(at 256.54 111.76 0)
 			(effects
 				(font
@@ -5378,7 +5378,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "lunalib:SW_Hotswap_Kailh_MX_1.00u"
 			(at 185.42 111.76 0)
 			(effects
 				(font
@@ -5448,7 +5448,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:D_SOD-123"
+		(property "Footprint" "lunalib:D_SOD-123"
 			(at 223.52 48.26 90)
 			(effects
 				(font
@@ -5536,7 +5536,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:D_SOD-123"
+		(property "Footprint" "lunalib:D_SOD-123"
 			(at 170.18 48.26 90)
 			(effects
 				(font
@@ -5690,7 +5690,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:D_SOD-123"
+		(property "Footprint" "lunalib:D_SOD-123"
 			(at 205.74 48.26 90)
 			(effects
 				(font
@@ -5776,7 +5776,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "lunalib:SW_Hotswap_Kailh_MX_1.00u"
 			(at 203.2 111.76 0)
 			(effects
 				(font
@@ -5844,7 +5844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "lunalib:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 48.26 109.22 0)
 			(effects
 				(font
@@ -5914,7 +5914,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:D_SOD-123"
+		(property "Footprint" "lunalib:D_SOD-123"
 			(at 187.96 71.12 90)
 			(effects
 				(font
@@ -6135,7 +6135,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:D_SOD-123"
+		(property "Footprint" "lunalib:D_SOD-123"
 			(at 223.52 93.98 90)
 			(effects
 				(font
@@ -6223,7 +6223,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:D_SOD-123"
+		(property "Footprint" "lunalib:D_SOD-123"
 			(at 241.3 116.84 90)
 			(effects
 				(font
@@ -6309,7 +6309,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "lunalib:SW_Hotswap_Kailh_MX_1.00u"
 			(at 185.42 43.18 0)
 			(effects
 				(font
@@ -6444,7 +6444,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "lunalib:SW_Hotswap_Kailh_MX_1.00u"
 			(at 220.98 111.76 0)
 			(effects
 				(font
@@ -6512,7 +6512,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "lunalib:SW_Hotswap_Kailh_MX_1.00u"
 			(at 256.54 43.18 0)
 			(effects
 				(font
@@ -6582,7 +6582,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:D_SOD-123"
+		(property "Footprint" "lunalib:D_SOD-123"
 			(at 205.74 71.12 90)
 			(effects
 				(font
@@ -6668,7 +6668,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "lunalib:SW_Hotswap_Kailh_MX_1.00u"
 			(at 185.42 66.04 0)
 			(effects
 				(font
@@ -6736,7 +6736,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
+		(property "Footprint" "lunalib:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 			(at 166.37 130.556 0)
 			(effects
 				(font
@@ -6813,7 +6813,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "lunalib:SW_Hotswap_Kailh_MX_1.00u"
 			(at 238.76 43.18 0)
 			(effects
 				(font
@@ -6883,7 +6883,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:D_SOD-123"
+		(property "Footprint" "lunalib:D_SOD-123"
 			(at 215.9 139.7 90)
 			(effects
 				(font
@@ -6969,7 +6969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "lunalib:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 48.26 119.38 0)
 			(effects
 				(font
@@ -7037,7 +7037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "lunalib:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 48.26 127 0)
 			(effects
 				(font
@@ -7105,7 +7105,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "lunalib:SW_Hotswap_Kailh_MX_1.00u"
 			(at 220.98 43.18 0)
 			(effects
 				(font
@@ -7240,7 +7240,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "lunalib:SW_Hotswap_Kailh_MX_1.00u"
 			(at 238.76 88.9 0)
 			(effects
 				(font
@@ -7310,7 +7310,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:D_SOD-123"
+		(property "Footprint" "lunalib:D_SOD-123"
 			(at 223.52 116.84 90)
 			(effects
 				(font
@@ -7398,7 +7398,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:D_SOD-123"
+		(property "Footprint" "lunalib:D_SOD-123"
 			(at 187.96 48.26 90)
 			(effects
 				(font
@@ -7484,7 +7484,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-promicroish:SuperMini_nRF52840_H_USBup"
+		(property "Footprint" "lunalib:SuperMini_nRF52840"
 			(at 81.28 82.55 0)
 			(effects
 				(font
@@ -7618,7 +7618,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "lunalib:SW_Hotswap_Kailh_MX_1.00u"
 			(at 213.36 134.62 0)
 			(effects
 				(font
@@ -7686,7 +7686,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "lunalib:SW_Hotswap_Kailh_MX_1.00u"
 			(at 185.42 88.9 0)
 			(effects
 				(font
@@ -7754,7 +7754,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "lunalib:SW_Hotswap_Kailh_MX_1.00u"
 			(at 248.92 134.62 0)
 			(effects
 				(font
@@ -7822,7 +7822,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "lunalib:SW_Hotswap_Kailh_MX_1.00u"
 			(at 256.54 88.9 0)
 			(effects
 				(font
@@ -7890,7 +7890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "lunalib:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 48.26 114.3 0)
 			(effects
 				(font
@@ -7958,7 +7958,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "lunalib:SW_Hotswap_Kailh_MX_1.00u"
 			(at 238.76 66.04 0)
 			(effects
 				(font
@@ -8157,7 +8157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "lunalib:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 48.26 124.46 0)
 			(effects
 				(font
@@ -8227,7 +8227,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:D_SOD-123"
+		(property "Footprint" "lunalib:D_SOD-123"
 			(at 269.24 139.7 90)
 			(effects
 				(font
@@ -8315,7 +8315,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:D_SOD-123"
+		(property "Footprint" "lunalib:D_SOD-123"
 			(at 233.68 139.7 90)
 			(effects
 				(font
@@ -8403,7 +8403,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:D_SOD-123"
+		(property "Footprint" "lunalib:D_SOD-123"
 			(at 187.96 116.84 90)
 			(effects
 				(font
@@ -8489,7 +8489,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "lunalib:SW_Hotswap_Kailh_MX_1.00u"
 			(at 167.64 66.04 0)
 			(effects
 				(font
@@ -8559,7 +8559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+		(property "Footprint" "lunalib:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 97.79 109.22 0)
 			(effects
 				(font
@@ -8629,7 +8629,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:D_SOD-123"
+		(property "Footprint" "lunalib:D_SOD-123"
 			(at 205.74 93.98 90)
 			(effects
 				(font
@@ -8717,7 +8717,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:D_SOD-123"
+		(property "Footprint" "lunalib:D_SOD-123"
 			(at 170.18 71.12 90)
 			(effects
 				(font
@@ -8805,7 +8805,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:D_SOD-123"
+		(property "Footprint" "lunalib:D_SOD-123"
 			(at 223.52 71.12 90)
 			(effects
 				(font
@@ -8893,7 +8893,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:D_SOD-123"
+		(property "Footprint" "lunalib:D_SOD-123"
 			(at 241.3 48.26 90)
 			(effects
 				(font
@@ -8979,7 +8979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "lunalib:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 48.26 111.76 0)
 			(effects
 				(font
@@ -9049,7 +9049,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:D_SOD-123"
+		(property "Footprint" "lunalib:D_SOD-123"
 			(at 259.08 48.26 90)
 			(effects
 				(font
@@ -9135,7 +9135,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "lunalib:SW_Hotswap_Kailh_MX_1.00u"
 			(at 238.76 111.76 0)
 			(effects
 				(font
@@ -9205,7 +9205,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:D_SOD-123"
+		(property "Footprint" "lunalib:D_SOD-123"
 			(at 205.74 116.84 90)
 			(effects
 				(font
@@ -9291,7 +9291,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3330AF130QG"
+		(property "Footprint" "lunalib:SW_TL3330AF130QG"
 			(at 58.42 81.28 0)
 			(effects
 				(font
@@ -9344,7 +9344,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ffc16e5-7fe5-48d9-a6d3-270e2940fe1a")
 		(property "Reference" "J3"
-			(at 64.77 109.2199 0)
+			(at 64.77 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9353,7 +9353,7 @@
 			)
 		)
 		(property "Value" "Conn_Display"
-			(at 64.77 111.7599 0)
+			(at 64.77 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9361,7 +9361,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd:OLED"
+		(property "Footprint" "lunalib:OLED"
 			(at 62.23 109.22 0)
 			(effects
 				(font
@@ -9435,7 +9435,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "lunalib:SW_Hotswap_Kailh_MX_1.00u"
 			(at 167.64 43.18 0)
 			(effects
 				(font
@@ -9503,7 +9503,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "lunalib:SW_Hotswap_Kailh_MX_1.00u"
 			(at 203.2 88.9 0)
 			(effects
 				(font
@@ -9573,7 +9573,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:D_SOD-123"
+		(property "Footprint" "lunalib:D_SOD-123"
 			(at 170.18 93.98 90)
 			(effects
 				(font
@@ -9725,7 +9725,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "lunalib:SW_Hotswap_Kailh_MX_1.00u"
 			(at 203.2 66.04 0)
 			(effects
 				(font
@@ -9795,7 +9795,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:D_SOD-123"
+		(property "Footprint" "lunalib:D_SOD-123"
 			(at 259.08 116.84 90)
 			(effects
 				(font
@@ -9881,7 +9881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "lunalib:SW_Hotswap_Kailh_MX_1.00u"
 			(at 256.54 66.04 0)
 			(effects
 				(font
@@ -9951,7 +9951,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:D_SOD-123"
+		(property "Footprint" "lunalib:D_SOD-123"
 			(at 241.3 71.12 90)
 			(effects
 				(font
@@ -10037,7 +10037,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.25u_90deg"
+		(property "Footprint" "lunalib:SW_Hotswap_Kailh_MX_1.25u_90deg"
 			(at 266.7 134.62 0)
 			(effects
 				(font
@@ -10107,7 +10107,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:D_SOD-123"
+		(property "Footprint" "lunalib:D_SOD-123"
 			(at 251.46 139.7 90)
 			(effects
 				(font
@@ -10195,7 +10195,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:D_SOD-123"
+		(property "Footprint" "lunalib:D_SOD-123"
 			(at 170.18 116.84 90)
 			(effects
 				(font
@@ -10414,7 +10414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "lunalib:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 48.26 121.92 0)
 			(effects
 				(font
@@ -10484,7 +10484,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:D_SOD-123"
+		(property "Footprint" "lunalib:D_SOD-123"
 			(at 177.8 139.7 90)
 			(effects
 				(font
@@ -10570,7 +10570,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "lunalib:SW_Hotswap_Kailh_MX_1.00u"
 			(at 203.2 43.18 0)
 			(effects
 				(font
@@ -10704,7 +10704,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "lunalib:SW_Hotswap_Kailh_MX_1.00u"
 			(at 220.98 88.9 0)
 			(effects
 				(font
@@ -10774,7 +10774,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:D_SOD-123"
+		(property "Footprint" "lunalib:D_SOD-123"
 			(at 259.08 93.98 90)
 			(effects
 				(font
@@ -10860,7 +10860,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "lunalib:SW_Hotswap_Kailh_MX_1.00u"
 			(at 167.64 88.9 0)
 			(effects
 				(font
@@ -10928,7 +10928,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "lunalib:SW_Hotswap_Kailh_MX_1.00u"
 			(at 220.98 66.04 0)
 			(effects
 				(font
@@ -11065,7 +11065,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:D_SOD-123"
+		(property "Footprint" "lunalib:D_SOD-123"
 			(at 259.08 71.12 90)
 			(effects
 				(font
@@ -11151,7 +11151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "lunalib:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 48.26 106.68 0)
 			(effects
 				(font
@@ -11219,7 +11219,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:TRRS-PJ-320D"
+		(property "Footprint" "lunalib:TRRS-PJ-320D"
 			(at 96.52 87.63 0)
 			(effects
 				(font
@@ -11295,7 +11295,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:D_SOD-123"
+		(property "Footprint" "lunalib:D_SOD-123"
 			(at 187.96 93.98 90)
 			(effects
 				(font
@@ -11383,7 +11383,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:D_SOD-123"
+		(property "Footprint" "lunalib:D_SOD-123"
 			(at 241.3 93.98 90)
 			(effects
 				(font
@@ -11468,7 +11468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_MSK12C02-HB"
+		(property "Footprint" "lunalib:SW_MSK12C02-HB"
 			(at 97.79 127 0)
 			(effects
 				(font
@@ -11539,7 +11539,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "lunalib:SW_Hotswap_Kailh_MX_1.00u"
 			(at 167.64 111.76 0)
 			(effects
 				(font
@@ -11607,7 +11607,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "lunalib:SW_Hotswap_Kailh_MX_1.00u"
 			(at 231.14 134.62 0)
 			(effects
 				(font
