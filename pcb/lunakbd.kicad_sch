@@ -9268,7 +9268,6 @@
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 58.42 86.36 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9291,7 +9290,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lunalib:SW_TL3330AF130QG"
+		(property "Footprint" "lunalib:SW-SMD_SHOU_TS36CA-0.6"
 			(at 58.42 81.28 0)
 			(effects
 				(font
