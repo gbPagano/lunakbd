@@ -23,10 +23,11 @@ matrix_map = """
 enabled = true
 
 [behavior.morse]
-enable_flow_tap = false
+enable_flow_tap = true
+prior_idle_time = "120ms"
 hold_on_other_press = true
-hold_timeout = "200ms"
-gap_timeout = "200ms"
+hold_timeout = "250ms"
+gap_timeout = "250ms"
 
 [storage]
 enabled = true
