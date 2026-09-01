@@ -48,6 +48,15 @@ col_offset = 0
 matrix_type = "normal"
 row_pins = []
 col_pins = []
+[split.central.display]
+driver = "ssd1306"
+size = "128x64"
+rotation = 0
+[split.central.display.protocol.i2c]
+instance = "TWISPI0"
+sda = "P0_17"
+scl = "P0_20"
+address = 0x3C
 
 [[split.peripheral]]
 rows = 5
@@ -64,6 +73,15 @@ pin_b = "P0_29"
 phase = "resolution"
 resolution = 4
 internal_pullup = true
+[split.peripheral.display]
+driver = "ssd1306"
+size = "128x32"
+rotation = 0
+[split.peripheral.display.protocol.i2c]
+instance = "TWISPI0"
+sda = "P0_17"
+scl = "P0_20"
+address = 0x3C
 
 [[split.peripheral]]
 rows = 5
@@ -80,3 +98,12 @@ pin_b = "P0_31"
 phase = "resolution"
 resolution = 4
 internal_pullup = true
+[split.peripheral.display]
+driver = "ssd1306"
+size = "128x32"
+rotation = 0
+[split.peripheral.display.protocol.i2c]
+instance = "TWISPI0"
+sda = "P0_17"
+scl = "P0_20"
+address = 0x3C
