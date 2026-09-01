@@ -76,8 +76,9 @@ row_pins = ["P0_22", "P0_24", "P1_00", "P0_11", "P1_04"]
 pin_a = "P0_31"
 pin_b = "P0_29"
 phase = "resolution"
-resolution = 4
+resolution = 2
 internal_pullup = true
+reverse = true
 [split.peripheral.display]
 driver = "ssd1306"
 size = "128x32"
@@ -102,8 +103,9 @@ row_pins = ["P0_22", "P0_24", "P1_00", "P0_11", "P1_04"]
 pin_a = "P0_29"
 pin_b = "P0_31"
 phase = "resolution"
-resolution = 4
+resolution = 2
 internal_pullup = true
+reverse = true
 [split.peripheral.display]
 driver = "ssd1306"
 size = "128x32"
