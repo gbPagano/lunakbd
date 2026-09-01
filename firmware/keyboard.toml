@@ -52,6 +52,11 @@ col_pins = []
 driver = "ssd1306"
 size = "128x64"
 rotation = 0
+renderer = "crate::renderer::DongleRenderer"
+# Poll interval in ms for animations (omit to disable polling - event-driven only).
+render_interval = 33
+# Minimum time in ms between event-driven renders.
+min_render_interval = 10
 [split.central.display.protocol.i2c]
 instance = "TWISPI0"
 sda = "P0_17"
@@ -76,7 +81,8 @@ internal_pullup = true
 [split.peripheral.display]
 driver = "ssd1306"
 size = "128x32"
-rotation = 0
+rotation = 90
+renderer = "OledRenderer"
 [split.peripheral.display.protocol.i2c]
 instance = "TWISPI0"
 sda = "P0_17"
@@ -101,7 +107,8 @@ internal_pullup = true
 [split.peripheral.display]
 driver = "ssd1306"
 size = "128x32"
-rotation = 0
+rotation = 90
+renderer = "OledRenderer"
 [split.peripheral.display.protocol.i2c]
 instance = "TWISPI0"
 sda = "P0_17"

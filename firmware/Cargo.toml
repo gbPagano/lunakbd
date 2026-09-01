@@ -11,6 +11,8 @@ rmk = { version = "0.9", features = [
     "adafruit_bl",
     "ssd1306",
 ] }
+embedded-graphics = "0.8"
+heapless = "0.9"
 nrf-sdc = { version = "0.4.0", features = [
     "defmt",
     "peripheral",
