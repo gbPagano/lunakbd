@@ -122,9 +122,9 @@ fi
 
 [tasks.flash-left]
 description = "Build and flash the left half"
-dependencies = ["uf2-peripheral2", "mount-nicenano"]
+dependencies = ["uf2-peripheral", "mount-nicenano"]
 command = "sudo"
-args = ["cp", "rmk-peripheral2.uf2", "/run/media/gbpagano/NICENANO"]
+args = ["cp", "rmk-peripheral.uf2", "/run/media/gbpagano/NICENANO"]
 
 [tasks.flash-central]
 description = "Build and flash the central"
@@ -134,6 +134,6 @@ args = ["cp", "rmk-central.uf2", "/run/media/gbpagano/NICENANO"]
 
 [tasks.flash-right]
 description = "Build and flash the right half"
-dependencies = ["uf2-peripheral", "mount-nicenano"]
+dependencies = ["uf2-peripheral2", "mount-nicenano"]
 command = "sudo"
-args = ["cp", "rmk-peripheral.uf2", "/run/media/gbpagano/NICENANO"]
+args = ["cp", "rmk-peripheral2.uf2", "/run/media/gbpagano/NICENANO"]
