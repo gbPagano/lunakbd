@@ -111,3 +111,29 @@ dependencies = ["objcopy-peripheral2"]
 
 [tasks.uf2]
 dependencies = ["uf2-central", "uf2-peripheral", "uf2-peripheral2"]
+
+[tasks.mount-nicenano]
+private = true
+script = '''
+if ! mountpoint -q /run/media/gbpagano/NICENANO; then
+    udisksctl mount -b /dev/disk/by-label/NICENANO
+fi
+'''
+
+[tasks.flash-left]
+description = "Build and flash the left half"
+dependencies = ["uf2-peripheral2", "mount-nicenano"]
+command = "sudo"
+args = ["cp", "rmk-peripheral2.uf2", "/run/media/gbpagano/NICENANO"]
+
+[tasks.flash-central]
+description = "Build and flash the central"
+dependencies = ["uf2-central", "mount-nicenano"]
+command = "sudo"
+args = ["cp", "rmk-central.uf2", "/run/media/gbpagano/NICENANO"]
+
+[tasks.flash-right]
+description = "Build and flash the right half"
+dependencies = ["uf2-peripheral", "mount-nicenano"]
+command = "sudo"
+args = ["cp", "rmk-peripheral.uf2", "/run/media/gbpagano/NICENANO"]

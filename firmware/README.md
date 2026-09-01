@@ -15,68 +15,48 @@ cargo build --release --bin peripheral
 cargo build --release --bin peripheral2
 ```
 
-## Nice!nano support
+## Generate UF2 firmware
 
-nice!nano has the [Adafruit_nRF52_Bootloader](https://github.com/adafruit/Adafruit_nRF52_Bootloader) built-in, which supports .uf2 firmware format. That means you don't need any debugging probe to flash your firmware. RMK uses `cargo-make` tool to generate .uf2 firmware, then generation processing is defined in `Makefile.toml`
+This project keeps the Adafruit UF2 bootloader supplied with the nice!nano.
+Generate firmware for all three controllers with:
 
-The following are steps of how to get .uf2 firmware work in RMK:
-
-1. Get `cargo-make` tool:
-   ```shell
-   cargo install --force cargo-make
-   ```
-2. Compile RMK and get .uf2:
-   ```shell
-   cargo make uf2 --release
-   ```
-3. Flash
-
-   Set your nice!nano to bootloader mode, a USB drive will show. Just drag the .uf2 firmware to USB drive. RMK will be automatically flashed. Check nice!nano's document: https://nicekeyboards.com/docs/nice-nano/getting-started#flashing-firmware-and-bootloaders. 
-
-Note that RMK will switch to USB mode if an USB cable is connected. Remember to remove USB cable after flashing!
-
-You can also check the instruction [here](https://nicekeyboards.com/docs/nice-nano/) for more info about nice!nano.
-
-## With debugging probe
-
-With a debugging probe, you can have the full control of you hardware. To use RMK you should check whether the bootloader is flashed to your board first. To use RMK with existing bootloader such as [Adafruit_nRF52_Bootloader](https://github.com/adafruit/Adafruit_nRF52_Bootloader), check `memory.x` in the project root, ensure that the flash starts from 0x00001000
-
-```
-MEMORY
-{
-  /* NOTE 1 K = 1 KiB = 1024 bytes */
-  /* These values correspond to the nRF52840 WITH Adafruit nRF52 bootloader */
-  FLASH : ORIGIN = 0x00001000, LENGTH = 1020K
-  RAM : ORIGIN = 0x20000008, LENGTH = 255K
-}
+```shell
+cargo make uf2
 ```
 
-Or you can use RMK without bootloader:
+This produces:
 
-```
-MEMORY
-{
-  /* NOTE 1 K = 1 KiB = 1024 bytes */
-  /* These values correspond to the nRF52840 */
-  FLASH : ORIGIN = 0x00000000, LENGTH = 1024K
-  RAM : ORIGIN = 0x20000000, LENGTH = 256K
-}
+```text
+rmk-central.uf2      # dongle
+rmk-peripheral.uf2   # right half
+rmk-peripheral2.uf2  # left half
 ```
 
-After you have `memory.x` set, use `cargo run --release` to flash the RMK firmware to your board:
+## Flash firmware
 
-1. Enter example folder:
-   ```shell
-   cd examples/use_rust/nrf52840_ble_split
-   ```
-2. Compile, flash and run the example
-   ```shell
-   # Run central firmware
-   cargo run --release --bin central
+The flash tasks build the correct release firmware, mount the `NICENANO`
+volume when needed and copy the UF2 to it:
 
-   # Run peripheral firmware
-   cargo run --release --bin peripheral
+```shell
+# Left half: peripheral2
+cargo make flash-left --release
 
-   # Run peripheral2 firmware
-   cargo run --release --bin peripheral2
-   ```
+# Dongle: central
+cargo make flash-dongle --release
+
+# Right half: peripheral
+cargo make flash-right --release
+```
+
+Before running a task:
+
+1. Connect the nice!nano over USB.
+2. Enter the bootloader by resetting the board. On boards where double-tap is
+   unreliable, hold RESET at GND briefly and release it.
+3. Confirm that the `NICENANO` USB drive appears.
+4. Run the corresponding `cargo make flash-* --release` command.
+5. Enter the sudo password if requested.
+6. Wait for the drive to disconnect and the controller to reboot.
+
+The Adafruit bootloader remains installed, so the same procedure can be used
+for recovery and all subsequent updates. `dfu-util` is not used in this mode.
