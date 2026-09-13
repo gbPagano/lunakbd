@@ -8,3 +8,6 @@ pcb/fp-info-cache
 .history/
 *-unsaved-export-*.kicad_prl
 ~*.lck
+
+# FreeCAD backup files
+*.FCBak
