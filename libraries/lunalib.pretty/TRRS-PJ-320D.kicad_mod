@@ -1,0 +1,253 @@
+(footprint "TRRS-PJ-320D"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "J1"
+		(at 0 14.2 180)
+		(layer "Dwgs.User")
+		(uuid "38bdf780-30fd-4133-8fa6-9ce1492a41da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TRRS-PJ-320D"
+		(at 0 -3.325242 180)
+		(layer "F.Fab")
+		(uuid "3f9daae3-f47e-4c3b-874a-76bfa029a9e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69503d4c-3850-4a48-8b82-2278b16abb94")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Audio Jack, 4 Poles (TRRS)"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a4d6dca-73b9-40c0-8c30-ea555f249beb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Jack*")
+	(sheetname "/")
+	(sheetfile "lunakbd.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.05 0)
+		(end -3.05 12.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "29bb18e5-14fd-402b-91cb-e032693e3666")
+	)
+	(fp_line
+		(start 3.05 0)
+		(end -3.05 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "96c0ce2f-ad00-49fd-8a63-44484978a83a")
+	)
+	(fp_line
+		(start 3.05 0)
+		(end 3.05 12.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cdbdf4e8-8b86-449b-8309-efc857fd830a")
+	)
+	(fp_line
+		(start 3.05 12.1)
+		(end -3.05 12.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b8261519-7547-46c8-8410-461f2c0dcf51")
+	)
+	(fp_line
+		(start -3.05 0)
+		(end -3.05 12.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "40bd8089-9c0b-4a66-80c7-06d6765f7cfc")
+	)
+	(fp_line
+		(start -3.05 0)
+		(end 3.05 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "7daa5fe3-ed65-4dd8-a7ff-a7cd67659b4a")
+	)
+	(fp_line
+		(start -3.05 12.1)
+		(end 3.05 12.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "43601349-cd03-4939-aa44-eb57f2fd058f")
+	)
+	(fp_line
+		(start 3.05 0)
+		(end 3.05 12.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "18dfaf07-3f33-4447-ae51-1ad11d33296f")
+	)
+	(fp_line
+		(start -2.8 0)
+		(end -2.8 -2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "b3db158e-d72c-4d5d-b922-fcb28b798980")
+	)
+	(fp_line
+		(start 2.8 -2)
+		(end -2.8 -2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "91c6a545-ab6a-4fd7-a666-4fc28f1a7a82")
+	)
+	(fp_line
+		(start 2.8 0)
+		(end 2.8 -2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "3ad858c2-b396-4fe0-a095-113b04d127b6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ced14de1-b7e0-4243-9914-dc7d6b0219fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 1.6)
+		(size 0.8 0.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "585852bf-183a-4bfc-a288-29af13331f8d")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 8.6)
+		(size 0.8 0.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "09871c72-ba50-4302-b3a7-ed239c410af4")
+	)
+	(pad "R1" smd rect
+		(at -3.25 6.2)
+		(size 2.5 1.2)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "5016cb8d-3e50-4bd3-8978-67aebfea83e3")
+	)
+	(pad "R1" smd rect
+		(at 3.25 6.2)
+		(size 2.5 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "069ba491-602b-4d0a-9918-6dd4e4320f5c")
+	)
+	(pad "R2" smd rect
+		(at -3.25 3.2)
+		(size 2.5 1.2)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "bb1a352f-a3ce-4236-b163-1be24feaad80")
+	)
+	(pad "R2" smd rect
+		(at 3.25 3.2)
+		(size 2.5 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1cabd7d3-3276-4fe4-b037-07e70c4ce20b")
+	)
+	(pad "S" smd rect
+		(at -3.25 11.3)
+		(size 2.5 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "644a7109-c358-478b-9f1a-92a24e6729be")
+	)
+	(pad "S" smd rect
+		(at 3.25 11.3)
+		(size 2.5 1.2)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "6a196396-26d0-4acb-a095-614e5f2e76f4")
+	)
+	(pad "T" smd rect
+		(at -3.25 10.2)
+		(size 2.5 1.2)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "20c25054-12bb-47ec-8e38-f9b6602360b9")
+	)
+	(pad "T" smd rect
+		(at 3.25 10.2)
+		(size 2.5 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c91f89b2-999c-445b-8cce-c88f617109f9")
+	)
+	(embedded_fonts no)
+	(model "/home/gbpagano/projects/keyboard-from-scratch/libraries/PJ320D.STEP"
+		(offset
+			(xyz -0.5 -5.15 -11.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)

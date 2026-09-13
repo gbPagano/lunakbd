@@ -2,3 +2,9 @@ references
 lunakbd-backups/
 pcb/kbplacer.log
 pcb/fp-info-cache
+
+# KiCad temporary files and local backups
+*.bak
+.history/
+*-unsaved-export-*.kicad_prl
+~*.lck

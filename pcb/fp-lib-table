@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "lunalib") (type "KiCad") (uri "/home/gbpagano/projects/keyboard-from-scratch/libraries/lunalib.pretty") (options "") (descr ""))
+)
