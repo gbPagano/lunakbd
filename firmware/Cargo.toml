@@ -4,7 +4,11 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-rmk = { version = "0.9", features = [
+rmk = { version = "0.9", default-features = false, features = [
+    "defmt",
+    "storage",
+    "watchdog",
+    "rynk",
     "nrf52840_ble",
     "split",
     "async_matrix",
@@ -47,11 +51,6 @@ defmt = "1.0"
 defmt-rtt = "1.0"
 panic-probe = { version = "1.0", features = ["print-defmt"] }
 static_cell = "2"
-
-[build-dependencies]
-xz2 = "0.1.7"
-json = "0.12"
-const-gen = "1.6"
 
 [[bin]]
 name = "central"

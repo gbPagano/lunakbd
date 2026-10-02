@@ -309,26 +309,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "const-gen"
-version = "1.6.9"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a0bb51eeea292ceb9bf5312b4416c1b151b130502e6892a2ae174ae1e4b51e58"
-dependencies = [
- "const-gen-derive",
-]
-
-[[package]]
-name = "const-gen-derive"
-version = "1.1.7"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "eabc01a5585d36649b6bee1f1198d112a7bb4982661d6c18406fba571ce3263e"
-dependencies = [
- "proc-macro2",
- "quote",
- "syn 1.0.109",
-]
-
-[[package]]
 name = "const-oid"
 version = "0.9.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1442,12 +1422,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "json"
-version = "0.12.4"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "078e285eafdfb6c4b434e0d31e8cfcb5115b651496faca5749b88fafd4f23bfd"
-
-[[package]]
 name = "json5"
 version = "0.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1519,7 +1493,6 @@ name = "lunakbd-firmware"
 version = "0.1.0"
 dependencies = [
  "bt-hci",
- "const-gen",
  "cortex-m",
  "cortex-m-rt",
  "defmt 1.1.1",
@@ -1529,24 +1502,11 @@ dependencies = [
  "embassy-time",
  "embedded-graphics",
  "heapless 0.9.3",
- "json",
  "nrf-mpsl",
  "nrf-sdc",
  "panic-probe",
  "rmk",
  "static_cell",
- "xz2",
-]
-
-[[package]]
-name = "lzma-sys"
-version = "0.1.20"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5fda04ab3764e6cde78b9974eec4f779acaba7c4e84b36eca3cf77c581b85d27"
-dependencies = [
- "cc",
- "libc",
- "pkg-config",
 ]
 
 [[package]]
@@ -1870,12 +1830,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a89322df9ebe1c1578d689c92318e070967d1042b512afbe49518723f4e6d5cd"
 
 [[package]]
-name = "pkg-config"
-version = "0.3.34"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f6b464fbc74e149a392436b17d523f769e057cb6877f6a5c4618bc6f11800548"
-
-[[package]]
 name = "portable-atomic"
 version = "1.15.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2136,6 +2090,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e99d79529fd045848d7692504eb733fb4dd7407f2ba1cf11397508cc68125140"
 dependencies = [
  "bitfield-struct",
+ "cobs",
  "defmt 1.1.1",
  "heapless 0.9.3",
  "postcard",
@@ -2885,15 +2840,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "23b97319f7b8343df12cc98938e5c3eb436064524c8d2b4e30a1d3a36eecdf81"
 dependencies = [
  "memchr",
-]
-
-[[package]]
-name = "xz2"
-version = "0.1.7"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "388c44dc09d76f1536602ead6d325eb532f5c122f17782bd57fb47baeeb767e2"
-dependencies = [
- "lzma-sys",
 ]
 
 [[package]]
